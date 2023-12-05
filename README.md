@@ -6,6 +6,9 @@
 - [Create Word Document Paragraphs in C#](#create-word-document-paragraphs-in-c)
 - [Read Word Document Paragraphs in C#](#read-word-document-paragraphs-in-c)
 - [Modify Word Document Paragraphs in C#](#modify-word-document-paragraphs-in-c)
+- [Create Word Document Images in C#](#create-word-document-images-in-c)
+- [Read Word Document Images in C#](#read-word-document-images-in-c)
+- [Modify Word Document Images in C#](#modify-word-document-images-in-c)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
@@ -23,6 +26,22 @@
 ## [Modify Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/53dbf77cd1168f06320f4b1a447bc4d1)
 * Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
 * Modifies paragraphs by prepending 'Modified Heading :' for styled paragraphs and 'Modified Run :' for each run within normal paragraphs, preserving the existing format.
+* Saves the modified Word Document.
+
+## [Create Word Document Images in C#](https://gist.github.com/fileformat-words-gists/cae0acdf7e5ef5f177402e4742aadc3d)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Loads images from the specified diretory and decodes using SkiaSharp.
+* Creates a word document and appends loaded images to it.
+* Saves the newly created Word Document.        
+
+## [Read Word Document Images in C#](https://gist.github.com/fileformat-words-gists/ad5c621c8764eb69555f2ab339f3ea01)
+* Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses images and displays image metadata.
+
+## [Modify Word Document Images in C#](https://gist.github.com/fileformat-words-gists/1c1eaf2878e5e25717561a3f3cbe43d6)
+* Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Gets images from the word document. Decodes image using SkiaSharp and encode to JPG.
+* Resize image to 250(height) and 200(width).
 * Saves the modified Word Document.
 
 ## License
