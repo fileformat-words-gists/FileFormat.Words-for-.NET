@@ -9,6 +9,9 @@
 - [Create Word Document Images in C#](#create-word-document-images-in-c)
 - [Read Word Document Images in C#](#read-word-document-images-in-c)
 - [Modify Word Document Images in C#](#modify-word-document-images-in-c)
+- [Create Word Document Tables in C#](#create-word-document-tables-in-c)
+- [Read Word Document Tables in C#](#read-word-document-tables-in-c)
+- [Modify Word Document Tables in C#](#modify-word-document-tables-in-c)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
@@ -42,6 +45,23 @@
 * Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
 * Gets images from the word document. Decodes image using SkiaSharp and encode to JPG.
 * Resize image to 250(height) and 200(width).
+* Saves the modified Word Document.
+
+## [Create Word Document Tables in C#](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates 5(rows) x 3(cols) tables with table styles defined by the Word document template.
+* Appends each table to the body of the word document.
+* Saves the newly created Word Document.        
+
+## [Read Word Document Tables in C#](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
+* Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses tables and displays associated styles as defined by the Word document template.
+* Traverses through each row and then traverses columns within the row.
+* Traverses through paragrpahs within each cell and displays paragraph plain text
+
+## [Modify Word Document Tables in C#](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+* Loads an existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Modifies tables by setting column widths to 2000
 * Saves the modified Word Document.
 
 ## License
