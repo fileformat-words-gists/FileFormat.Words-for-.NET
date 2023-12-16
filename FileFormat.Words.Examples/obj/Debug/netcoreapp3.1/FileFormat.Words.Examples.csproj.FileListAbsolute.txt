@@ -1,0 +1,11 @@
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/bin/Debug/netcoreapp3.1/FileFormat.Words.Examples.xml
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/bin/Debug/netcoreapp3.1/FileFormat.Words.Examples.deps.json
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/bin/Debug/netcoreapp3.1/FileFormat.Words.Examples.dll
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/bin/Debug/netcoreapp3.1/FileFormat.Words.Examples.pdb
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.AssemblyInfoInputs.cache
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.AssemblyInfo.cs
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.csproj.CoreCompileInputs.cache
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.dll
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.pdb
+/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/Debug/netcoreapp3.1/FileFormat.Words.Examples.csproj.AssemblyReference.cache

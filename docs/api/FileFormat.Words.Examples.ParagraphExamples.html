@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>ParagraphExamples Class - Word Paragraphs C# | Words FileFormat </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="ParagraphExamples Class - Word Paragraphs C# | Words FileFormat ">
+      <meta name="description" content="“Provides C# code examples to create, read and modify paragraphs in a word document. Demonstrates word paragraphs insert, update and remove operations.”">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FileFormat.Words">
+            FileFormat.Words
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FileFormat.Words.Examples.ParagraphExamples">
+
+
+
+  <h1 id="FileFormat_Words_Examples_ParagraphExamples" data-uid="FileFormat.Words.Examples.ParagraphExamples" class="text-break">
+    Class ParagraphExamples
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FileFormat.html">FileFormat</a>.<a class="xref" href="FileFormat.Words.html">Words</a>.<a class="xref" href="FileFormat.Words.Examples.html">Examples</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FileFormat.Words.Examples.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides C# code examples for creating, reading, and modifying Word paragraphs
+using the <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a> library.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParagraphExamples</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ParagraphExamples</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+  <h2 id="FileFormat_Words_Examples_ParagraphExamples_examples">Examples</h2>
+  <pre><code class="lang-csharp">// Prepares directory Documents/Paragraph at the root of your project.
+// Check reference for more options and details.
+ParagraphExamples paragraphExamples = new ParagraphExamples();
+// Creates a word document with paragraphs and saves word document to the specified 
+// directory. Check reference for more options and details.
+paragraphExamples.CreateWordParagraphs();
+// Reads Paragraphs from the specified Word Document and displays plain text and formatting.
+// Check reference for more options and details.
+paragraphExamples.ReadWordParagraphs();
+// Modifies Paragraphs in the specified Word Document and saves the modified word document.
+// Check reference for more options and details.
+paragraphExamples.ModifyWordParagraphs();</code></pre>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FileFormat_Words_Examples_ParagraphExamples__ctor_" data-uid="FileFormat.Words.Examples.ParagraphExamples.#ctor*"></a>
+
+  <h3 id="FileFormat_Words_Examples_ParagraphExamples__ctor" data-uid="FileFormat.Words.Examples.ParagraphExamples.#ctor">
+  ParagraphExamples()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FileFormat.Words.Examples.ParagraphExamples.html">ParagraphExamples</a> class.
+Prepares the directory 'Documents/Paragraph' for storing or loading Word documents
+at the root of the project.
+If the directory doesn't exist, it is created. If it already exists,
+existing files are deleted, and the directory is cleaned up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParagraphExamples()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FileFormat_Words_Examples_ParagraphExamples_CreateWordParagraphs_" data-uid="FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs*"></a>
+
+  <h3 id="FileFormat_Words_Examples_ParagraphExamples_CreateWordParagraphs_System_String_System_String_" data-uid="FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs(System.String,System.String)">
+  CreateWordParagraphs(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new Word Document with structured content using
+<a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+Generates paragraphs with heading styles defined by the Word document template.
+Adds normal paragraphs under each heading paragraph, including text runs with various fonts as per the template.
+Saves the newly created Word Document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateWordParagraphs(string documentDirectory = &quot;../../../Documents/Paragraph&quot;, string filename = &quot;WordParagraphs.docx&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The directory where the Word Document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the Word Document file (default is &quot;WordParagraphs.docx&quot;).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FileFormat_Words_Examples_ParagraphExamples_ModifyWordParagraphs_" data-uid="FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs*"></a>
+
+  <h3 id="FileFormat_Words_Examples_ParagraphExamples_ModifyWordParagraphs_System_String_System_String_System_String_" data-uid="FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs(System.String,System.String,System.String)">
+  ModifyWordParagraphs(string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a Word Document with structured content using
+<a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+Modifies paragraphs by prepending 'Modified Heading :' for styled paragraphs
+and 'Modified Run :' for each run within normal paragraphs, preserving the existing format.
+Saves the modified Word Document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyWordParagraphs(string documentDirectory = &quot;../../../Documents/Paragraph&quot;, string filename = &quot;WordParagraphs.docx&quot;, string filenameModified = &quot;ModifiedWordParagraphs.docx&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The directory where the Word Document to load is present and
+the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the Word Document file to modify (default is &quot;WordParagraphs.docx&quot;).</p>
+</dd>
+    <dt><code>filenameModified</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the modified Word Document (default is &quot;ModifiedWordParagraphs.docx&quot;).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FileFormat_Words_Examples_ParagraphExamples_ReadWordParagraphs_" data-uid="FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs*"></a>
+
+  <h3 id="FileFormat_Words_Examples_ParagraphExamples_ReadWordParagraphs_System_String_System_String_" data-uid="FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs(System.String,System.String)">
+  ReadWordParagraphs(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads a Word Document with structured content using
+<a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+Traverses paragraphs and displays associated styles as defined by the Word document template.
+Traverses through each run (text fragment) within each paragraph and displays fragment values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadWordParagraphs(string documentDirectory = &quot;../../../Documents/Paragraph&quot;, string filename = &quot;WordParagraphs.docx&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The directory where the Word Document to load is present
+(default is the 'Documents/Paragraph' directory auto-created at the root of your project).</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the Word Document file to load (default is &quot;WordParagraphs.docx&quot;).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

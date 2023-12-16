@@ -1,0 +1,216 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FileFormat.Words.Examples
+  name: FileFormat.Words.Examples
+  href: api/FileFormat.Words.Examples.html
+  commentId: N:FileFormat.Words.Examples
+  fullName: FileFormat.Words.Examples
+  nameWithType: FileFormat.Words.Examples
+- uid: FileFormat.Words.Examples.ImageExamples
+  name: ImageExamples
+  href: api/FileFormat.Words.Examples.ImageExamples.html
+  commentId: T:FileFormat.Words.Examples.ImageExamples
+  fullName: FileFormat.Words.Examples.ImageExamples
+  nameWithType: ImageExamples
+- uid: FileFormat.Words.Examples.ImageExamples.#ctor
+  name: ImageExamples()
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ImageExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ImageExamples.ImageExamples()
+  fullName.vb: FileFormat.Words.Examples.ImageExamples.New()
+  nameWithType: ImageExamples.ImageExamples()
+  nameWithType.vb: ImageExamples.New()
+- uid: FileFormat.Words.Examples.ImageExamples.#ctor*
+  name: ImageExamples
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ImageExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ImageExamples.ImageExamples
+  fullName.vb: FileFormat.Words.Examples.ImageExamples.New
+  nameWithType: ImageExamples.ImageExamples
+  nameWithType.vb: ImageExamples.New
+- uid: FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages(System.String,System.String,System.String)
+  name: CreateWordDocumentWithImages(string, string, string)
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_CreateWordDocumentWithImages_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages(System.String,System.String,System.String)
+  name.vb: CreateWordDocumentWithImages(String, String, String)
+  fullName: FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages(String, String, String)
+  nameWithType: ImageExamples.CreateWordDocumentWithImages(string, string, string)
+  nameWithType.vb: ImageExamples.CreateWordDocumentWithImages(String, String, String)
+- uid: FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages*
+  name: CreateWordDocumentWithImages
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_CreateWordDocumentWithImages_
+  commentId: Overload:FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages
+  fullName: FileFormat.Words.Examples.ImageExamples.CreateWordDocumentWithImages
+  nameWithType: ImageExamples.CreateWordDocumentWithImages
+- uid: FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument(System.String,System.String,System.String)
+  name: ModifyImagesInWordDocument(string, string, string)
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_ModifyImagesInWordDocument_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument(System.String,System.String,System.String)
+  name.vb: ModifyImagesInWordDocument(String, String, String)
+  fullName: FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument(String, String, String)
+  nameWithType: ImageExamples.ModifyImagesInWordDocument(string, string, string)
+  nameWithType.vb: ImageExamples.ModifyImagesInWordDocument(String, String, String)
+- uid: FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument*
+  name: ModifyImagesInWordDocument
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_ModifyImagesInWordDocument_
+  commentId: Overload:FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument
+  fullName: FileFormat.Words.Examples.ImageExamples.ModifyImagesInWordDocument
+  nameWithType: ImageExamples.ModifyImagesInWordDocument
+- uid: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument(System.String,System.String)
+  name: ReadImagesInWordDocument(string, string)
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_ReadImagesInWordDocument_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument(System.String,System.String)
+  name.vb: ReadImagesInWordDocument(String, String)
+  fullName: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument(string, string)
+  fullName.vb: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument(String, String)
+  nameWithType: ImageExamples.ReadImagesInWordDocument(string, string)
+  nameWithType.vb: ImageExamples.ReadImagesInWordDocument(String, String)
+- uid: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument*
+  name: ReadImagesInWordDocument
+  href: api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_ReadImagesInWordDocument_
+  commentId: Overload:FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
+  fullName: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
+  nameWithType: ImageExamples.ReadImagesInWordDocument
+- uid: FileFormat.Words.Examples.ParagraphExamples
+  name: ParagraphExamples
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html
+  commentId: T:FileFormat.Words.Examples.ParagraphExamples
+  fullName: FileFormat.Words.Examples.ParagraphExamples
+  nameWithType: ParagraphExamples
+- uid: FileFormat.Words.Examples.ParagraphExamples.#ctor
+  name: ParagraphExamples()
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ParagraphExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ParagraphExamples()
+  fullName.vb: FileFormat.Words.Examples.ParagraphExamples.New()
+  nameWithType: ParagraphExamples.ParagraphExamples()
+  nameWithType.vb: ParagraphExamples.New()
+- uid: FileFormat.Words.Examples.ParagraphExamples.#ctor*
+  name: ParagraphExamples
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ParagraphExamples
+  fullName.vb: FileFormat.Words.Examples.ParagraphExamples.New
+  nameWithType: ParagraphExamples.ParagraphExamples
+  nameWithType.vb: ParagraphExamples.New
+- uid: FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs(System.String,System.String)
+  name: CreateWordParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_CreateWordParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs(System.String,System.String)
+  name.vb: CreateWordParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs(String, String)
+  nameWithType: ParagraphExamples.CreateWordParagraphs(string, string)
+  nameWithType.vb: ParagraphExamples.CreateWordParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs*
+  name: CreateWordParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_CreateWordParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphExamples.CreateWordParagraphs
+  nameWithType: ParagraphExamples.CreateWordParagraphs
+- uid: FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs(System.String,System.String,System.String)
+  name: ModifyWordParagraphs(string, string, string)
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_ModifyWordParagraphs_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs(System.String,System.String,System.String)
+  name.vb: ModifyWordParagraphs(String, String, String)
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs(String, String, String)
+  nameWithType: ParagraphExamples.ModifyWordParagraphs(string, string, string)
+  nameWithType.vb: ParagraphExamples.ModifyWordParagraphs(String, String, String)
+- uid: FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs*
+  name: ModifyWordParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_ModifyWordParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ModifyWordParagraphs
+  nameWithType: ParagraphExamples.ModifyWordParagraphs
+- uid: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs(System.String,System.String)
+  name: ReadWordParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_ReadWordParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs(System.String,System.String)
+  name.vb: ReadWordParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs(String, String)
+  nameWithType: ParagraphExamples.ReadWordParagraphs(string, string)
+  nameWithType.vb: ParagraphExamples.ReadWordParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs*
+  name: ReadWordParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_ReadWordParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs
+  nameWithType: ParagraphExamples.ReadWordParagraphs
+- uid: FileFormat.Words.Examples.TableExamples
+  name: TableExamples
+  href: api/FileFormat.Words.Examples.TableExamples.html
+  commentId: T:FileFormat.Words.Examples.TableExamples
+  fullName: FileFormat.Words.Examples.TableExamples
+  nameWithType: TableExamples
+- uid: FileFormat.Words.Examples.TableExamples.#ctor
+  name: TableExamples()
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples__ctor
+  commentId: M:FileFormat.Words.Examples.TableExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.TableExamples.TableExamples()
+  fullName.vb: FileFormat.Words.Examples.TableExamples.New()
+  nameWithType: TableExamples.TableExamples()
+  nameWithType.vb: TableExamples.New()
+- uid: FileFormat.Words.Examples.TableExamples.#ctor*
+  name: TableExamples
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.TableExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.TableExamples.TableExamples
+  fullName.vb: FileFormat.Words.Examples.TableExamples.New
+  nameWithType: TableExamples.TableExamples
+  nameWithType.vb: TableExamples.New
+- uid: FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables(System.String,System.String)
+  name: CreateWordDocumentWithTables(string, string)
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_CreateWordDocumentWithTables_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables(System.String,System.String)
+  name.vb: CreateWordDocumentWithTables(String, String)
+  fullName: FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables(string, string)
+  fullName.vb: FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables(String, String)
+  nameWithType: TableExamples.CreateWordDocumentWithTables(string, string)
+  nameWithType.vb: TableExamples.CreateWordDocumentWithTables(String, String)
+- uid: FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables*
+  name: CreateWordDocumentWithTables
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_CreateWordDocumentWithTables_
+  commentId: Overload:FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables
+  fullName: FileFormat.Words.Examples.TableExamples.CreateWordDocumentWithTables
+  nameWithType: TableExamples.CreateWordDocumentWithTables
+- uid: FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument(System.String,System.String,System.String)
+  name: ModifyTablesInWordDocument(string, string, string)
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_ModifyTablesInWordDocument_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument(System.String,System.String,System.String)
+  name.vb: ModifyTablesInWordDocument(String, String, String)
+  fullName: FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument(String, String, String)
+  nameWithType: TableExamples.ModifyTablesInWordDocument(string, string, string)
+  nameWithType.vb: TableExamples.ModifyTablesInWordDocument(String, String, String)
+- uid: FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument*
+  name: ModifyTablesInWordDocument
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_ModifyTablesInWordDocument_
+  commentId: Overload:FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument
+  fullName: FileFormat.Words.Examples.TableExamples.ModifyTablesInWordDocument
+  nameWithType: TableExamples.ModifyTablesInWordDocument
+- uid: FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument(System.String,System.String)
+  name: ReadTablesInWordDocument(string, string)
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_ReadTablesInWordDocument_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument(System.String,System.String)
+  name.vb: ReadTablesInWordDocument(String, String)
+  fullName: FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument(string, string)
+  fullName.vb: FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument(String, String)
+  nameWithType: TableExamples.ReadTablesInWordDocument(string, string)
+  nameWithType.vb: TableExamples.ReadTablesInWordDocument(String, String)
+- uid: FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument*
+  name: ReadTablesInWordDocument
+  href: api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_ReadTablesInWordDocument_
+  commentId: Overload:FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument
+  fullName: FileFormat.Words.Examples.TableExamples.ReadTablesInWordDocument
+  nameWithType: TableExamples.ReadTablesInWordDocument
