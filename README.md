@@ -1,4 +1,4 @@
-# Project
+# C# Word Document API Examples
 
 **FileFormat.Words for .NET Gists** - C# code examples for using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
 
@@ -12,6 +12,8 @@
 - [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+- [Resources](#resources)
+- [System Requirements](system-requirements)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
@@ -72,6 +74,17 @@
 * Modifies tables by setting column widths to 2000
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+
+## Resources
+* [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
+* [API Reference](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html)
+* [Articles](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/articles/index.html)
+
+## System Requirements
+* [Pre-Requisite](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html#pre-requisite)
+* Make sure to have below nuget packages installed:
+  * [FileFormat.Words for .NET](https://www.nuget.org/packages/FileFormat.Words)
+  * [SkiaSharp](https://www.nuget.org/packages/SkiaSharp)
 
 ## License
 
