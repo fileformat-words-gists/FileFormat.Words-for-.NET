@@ -5,13 +5,13 @@
 ## Table of Contents
 - [Create Word Document Paragraphs in C#](#create-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
 - [Read Word Document Paragraphs in C#](#read-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/84eb759e58049ddc28c25943d2d3c121)
-- [Modify Word Document Paragraphs in C#](#modify-word-document-paragraphs-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/53dbf77cd1168f06320f4b1a447bc4d1]
-- [Create Word Document Images in C#](#create-word-document-images-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/cae0acdf7e5ef5f177402e4742aadc3d]
-- [Read Word Document Images in C#](#read-word-document-images-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/ad5c621c8764eb69555f2ab339f3ea01]
-- [Modify Word Document Images in C#](#modify-word-document-images-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/1c1eaf2878e5e25717561a3f3cbe43d6]
-- [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364]
+- [Modify Word Document Paragraphs in C#](#modify-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/53dbf77cd1168f06320f4b1a447bc4d1)
+- [Create Word Document Images in C#](#create-word-document-images-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/cae0acdf7e5ef5f177402e4742aadc3d)
+- [Read Word Document Images in C#](#read-word-document-images-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/ad5c621c8764eb69555f2ab339f3ea01)
+- [Modify Word Document Images in C#](#modify-word-document-images-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/1c1eaf2878e5e25717561a3f3cbe43d6)
+- [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79]
-- [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b]
+- [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
