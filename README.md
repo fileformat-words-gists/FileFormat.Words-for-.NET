@@ -10,7 +10,7 @@
 - [Read Word Document Images in C#](#read-word-document-images-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/ad5c621c8764eb69555f2ab339f3ea01)
 - [Modify Word Document Images in C#](#modify-word-document-images-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/1c1eaf2878e5e25717561a3f3cbe43d6)
 - [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
-- [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gisthttps://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79]
+- [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
 - [License](#license)
   
