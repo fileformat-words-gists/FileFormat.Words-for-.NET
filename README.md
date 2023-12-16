@@ -13,7 +13,7 @@
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
 - [Resources](#resources)
-- [System Requirements](system-requirements)
+- [System Requirements](#system-requirements)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
