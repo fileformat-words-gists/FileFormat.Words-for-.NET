@@ -1,6 +1,6 @@
 # C# Word Document API Examples
 
-**FileFormat.Words for .NET Gists** - C# code examples for using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
+**FileFormat.Words.Examples** - C# code examples using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
 
 ## Table of Contents
 - [Create Word Document Paragraphs in C#](#create-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
