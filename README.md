@@ -88,56 +88,9 @@
   * [SkiaSharp](https://www.nuget.org/packages/SkiaSharp)
 
 ## Quick Start
-* Create, Read and Modify Word Paragraphs.
-
-'''csharp
-// Prepares directory Documents/Paragraph at the root of your project.
-// Check reference for more options and details.
-ParagraphExamples paragraphExamples = new ParagraphExamples();
-// Creates a word document with paragraphs and saves word document to the specified 
-// directory. Check reference for more options and details.
-paragraphExamples.CreateWordParagraphs();
-// Reads Paragraphs from the specified Word Document and displays plain text and formatting.
-// Check reference for more options and details.
-paragraphExamples.ReadWordParagraphs();
-// Modifies Paragraphs in the specified Word Document and saves the modified word document.
-// Check reference for more options and details.
-paragraphExamples.ModifyWordParagraphs();
-'''
-
-* Create, Read and Modify Word Images.
-
-'''csharp
-// Prepares directory Documents/Image at the root of your project.
-// Check reference for more options and details.
-ImageExamples imageExamples = new ImageExamples();
-// Reads images from the specified directory, creates and saves word document to the specified 
-// directory. Check reference for more options and details.
-imageExamples.CreateWordDocumentWithImages();
-// Read Images from the specified Word Document and displays image metadata.
-// Check reference for more options and details.
-imageExamples.ReadImagesInWordDocument();
-// Modify Images in the specified Word Document and saves the modified word document.
-// Check reference for more options and details.
-imageExamples.ModifyImagesInWordDocument();
-'''  
-
-* Create, Read and Modify Word Tables.
-
-'''csharp
-// Prepares directory Documents/Table at the root of your project.
-// Check reference for more options and details.
-TableExamples tableExamples = new TableExamples();
-// Creates a word document with tables and saves word document to the specified 
-// directory. Check reference for more options and details.
-tableExamples.CreateWordDocumentWithTables();
-// Read tables from the specified Word Document and displays table contents.
-// Check reference for more options and details.
-tableExamples.ReadTablesInWordDocument();
-// Modify Images in the specified Word Document and saves the modified word document.
-// Check reference for more options and details.
-tableExamples.ModifyTablesInWordDocument();
-'''
+* [Create, Read and Modify Word Paragraphs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_examples).
+* [Create, Read and Modify Word Images](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_examples).
+* [Create, Read and Modify Word Tables](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_examples).
 
 ## License
 
