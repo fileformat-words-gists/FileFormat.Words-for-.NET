@@ -12,6 +12,7 @@
 - [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+- [Multiple Word Documents Concurrent Updating in C#](#multiple-word-documents-concurrent-updating-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -75,6 +76,12 @@
 * Modifies tables by setting column widths to 2000
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+
+## [Multiple Word Documents Concurrent Updating in C#](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+* Loads 3 existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Appends paragraphs concurrently on three documents
+* Saves the modified Word Documents.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
 
 ## Resources
 * [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
