@@ -1,6 +1,6 @@
-# Project
+# C# Word Document API Examples
 
-**FileFormat.Words for .NET Gists** - C# code examples for using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
+**FileFormat.Words.Examples** - C# code examples using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
 
 ## Table of Contents
 - [Create Word Document Paragraphs in C#](#create-word-document-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
@@ -12,6 +12,10 @@
 - [Create Word Document Tables in C#](#create-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/c05f8f128080801fff348a41e38d0364)
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+- [Multiple Word Documents Concurrent Updating in C#](#multiple-word-documents-concurrent-updating-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+- [Resources](#resources)
+- [System Requirements](#system-requirements)
+- [Quick Start](#quick-start)
 - [License](#license)
   
 ## [Create Word Document Paragraphs in C#](https://gist.github.com/fileformat-words-gists/0f5c7fa92216dec7c8b1b07f5a8060ea)
@@ -72,6 +76,28 @@
 * Modifies tables by setting column widths to 2000
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
+
+## [Multiple Word Documents Concurrent Updating in C#](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+* Loads 3 existing Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Appends paragraphs concurrently on three documents
+* Saves the modified Word Documents.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+
+## Resources
+* [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
+* [API Reference](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html)
+* [Articles](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/articles/index.html)
+
+## System Requirements
+* [Pre-Requisite](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html#pre-requisite)
+* Make sure to have below nuget packages installed:
+  * [FileFormat.Words for .NET](https://www.nuget.org/packages/FileFormat.Words)
+  * [SkiaSharp](https://www.nuget.org/packages/SkiaSharp)
+
+## Quick Start
+* [Create, Read and Modify Word Paragraphs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_examples).
+* [Create, Read and Modify Word Images](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_examples).
+* [Create, Read and Modify Word Tables](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_examples).
 
 ## License
 
