@@ -78,7 +78,7 @@
                 System.Console.WriteLine("Body of the Word Document initialized");
 
                 // Get all table styles
-                var tableStyles = doc.GetElementStyles().TableStyles;
+                var tableStyles = doc.ElementStyles.TableStyles;
                 System.Console.WriteLine("Table styles loaded");
 
                 // Create Headings Paragraph and append to the body.
