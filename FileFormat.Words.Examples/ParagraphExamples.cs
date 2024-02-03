@@ -79,12 +79,12 @@ namespace FileFormat.Words.Examples
                 System.Console.WriteLine("Body of the Word Document initialized");
 
                 // Get all paragraph styles
-                var paragraphStyles = doc.GetElementStyles().ParagraphStyles;
+                var paragraphStyles = doc.ElementStyles.ParagraphStyles;
                 System.Console.WriteLine("Paragraph styles loaded");
 
                 // Get all fonts defined by FontTable and Theme
-                var fonts = doc.GetElementStyles().TableFonts;
-                var fontsTheme = doc.GetElementStyles().ThemeFonts;
+                var fonts = doc.ElementStyles.TableFonts;
+                var fontsTheme = doc.ElementStyles.ThemeFonts;
                 System.Console.WriteLine("Fonts defined by FontsTable and Theme loaded");
 
                 // Merge all fonts
