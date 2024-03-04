@@ -13,6 +13,12 @@
 - [Read Word Document Tables in C#](#read-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fb5d9fa3c0576b45140ee3be87405c79)
 - [Modify Word Document Tables in C#](#modify-word-document-tables-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/20db884541540196dd00a9f313d9f77b)
 - [Multiple Word Documents Concurrent Updating in C#](#multiple-word-documents-concurrent-updating-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+- [Create Word Paragraph Alignment in C#](#create-word-paragraph-alignment-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/4cabcd2dd727ebb5dc1c27104b02b1bd)
+- [Read Word Paragraph Alignment in C#](#read-word-paragraph-alignment-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/bd68c603de13475f65e2369969072b46)
+- [Modify Word Paragraph Alignment in C#](#modify-word-paragraph-alignment-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/bc539ee85e5ad873ed27c5d1c7ff41b2)
+- [Create Word Paragraph Indent in C#](#create-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/87676cf05f3fe03a30a8a08087ce3faf)
+- [Read Word Paragraph Indent in C#](#read-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/951eb4906ef57d8d6b93b1f009700a54)
+- [Modify Word Paragraph Indent in C#](#modify-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/95efc98b9e1b579c3201309697c4ef97)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -82,6 +88,42 @@
 * Appends paragraphs concurrently on three documents
 * Saves the modified Word Documents.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/efe7dfee71953a577e13988ed99e20f1)
+
+## [Create Word Paragraph Alignment in C#](https://gist.github.com/fileformat-words-gists/4cabcd2dd727ebb5dc1c27104b02b1bd)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates paragraphs with different alignments including left, center, right and justify.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/4cabcd2dd727ebb5dc1c27104b02b1bd)
+
+## [Read Word Paragraph Alignment in C#](https://gist.github.com/fileformat-words-gists/bd68c603de13475f65e2369969072b46)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses paragraphs and displays its text along with alignment.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/bd68c603de13475f65e2369969072b46)
+
+## [Modify Word Paragraph Alignment in C#](https://gist.github.com/fileformat-words-gists/bc539ee85e5ad873ed27c5d1c7ff41b2)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through all paragraphs within the document.
+* Modifies paragraphs by appending ' (alignment modified to justify)' with italic format and justify alignment.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/bc539ee85e5ad873ed27c5d1c7ff41b2)
+
+## [Create Word Paragraph Indent in C#](https://gist.github.com/fileformat-words-gists/87676cf05f3fe03a30a8a08087ce3faf)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates paragraphs with different indents including left, right, firstline and hanging.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/87676cf05f3fe03a30a8a08087ce3faf)
+
+## [Read Word Paragraph Indent in C#](https://gist.github.com/fileformat-words-gists/951eb4906ef57d8d6b93b1f009700a54)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses paragraphs and displays its text along with indentation.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/951eb4906ef57d8d6b93b1f009700a54)
+
+## [Modify Word Paragraph Indent in C#](https://gist.github.com/fileformat-words-gists/95efc98b9e1b579c3201309697c4ef97)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through all paragraphs within the document.
+* Modifies paragraphs by appending the relevant indent message in italic format and modifies the indent (if found) to 0.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/95efc98b9e1b579c3201309697c4ef97)
 
 ## Resources
 * [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
