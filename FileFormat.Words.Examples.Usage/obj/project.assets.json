@@ -14,7 +14,7 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "FileFormat.Words/23.10.0": {
+      "FileFormat.Words/24.2.0": {
         "type": "package",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0"
@@ -91,7 +91,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0",
-          "FileFormat.Words": "23.10.0",
+          "FileFormat.Words": "24.2.0",
           "SkiaSharp": "2.88.6"
         },
         "compile": {
@@ -128,22 +128,20 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "FileFormat.Words/23.10.0": {
-      "sha512": "irMlG4hlUHBRShZ6489KuEnJuBrb01sONsL6Fs1L4vJ4/Ja2PP6vj45z/rAP8eimWWqFWMw2iA4Pifrc3vt3OQ==",
+    "FileFormat.Words/24.2.0": {
+      "sha512": "SFMo+/MlRcuGZdKZQGuUSxjSgcqjIkhCT06zfjySFMd+i02v+TXTegzMxGTFqUXqYcf+80XuP3hV+7NC9wM6Kw==",
       "type": "package",
-      "path": "fileformat.words/23.10.0",
+      "path": "fileformat.words/24.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Cert.pfx",
         "README.md",
-        "fileformat.words.23.10.0.nupkg.sha512",
+        "fileformat.words.24.2.0.nupkg.sha512",
         "fileformat.words.nuspec",
         "fileformat_words-for-net.png",
         "lib/netcoreapp3.1/FileFormat.Words.dll",
-        "lib/netcoreapp3.1/FileFormat.Words.runtimeconfig.json",
-        "license.txt",
-        "nuget.exe"
+        "license.txt"
       ]
     },
     "SkiaSharp/2.88.6": {

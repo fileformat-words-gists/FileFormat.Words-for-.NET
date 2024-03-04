@@ -25,7 +25,7 @@
           }
         }
       },
-      "FileFormat.Words/23.10.0": {
+      "FileFormat.Words/24.2.0": {
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0"
         },
@@ -87,7 +87,7 @@
       "FileFormat.Words.Examples/1.0.0": {
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0",
-          "FileFormat.Words": "23.10.0",
+          "FileFormat.Words": "24.2.0",
           "SkiaSharp": "2.88.6"
         },
         "runtime": {
@@ -109,12 +109,12 @@
       "path": "documentformat.openxml/2.20.0",
       "hashPath": "documentformat.openxml.2.20.0.nupkg.sha512"
     },
-    "FileFormat.Words/23.10.0": {
+    "FileFormat.Words/24.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-irMlG4hlUHBRShZ6489KuEnJuBrb01sONsL6Fs1L4vJ4/Ja2PP6vj45z/rAP8eimWWqFWMw2iA4Pifrc3vt3OQ==",
-      "path": "fileformat.words/23.10.0",
-      "hashPath": "fileformat.words.23.10.0.nupkg.sha512"
+      "sha512": "sha512-SFMo+/MlRcuGZdKZQGuUSxjSgcqjIkhCT06zfjySFMd+i02v+TXTegzMxGTFqUXqYcf+80XuP3hV+7NC9wM6Kw==",
+      "path": "fileformat.words/24.2.0",
+      "hashPath": "fileformat.words.24.2.0.nupkg.sha512"
     },
     "SkiaSharp/2.88.6": {
       "type": "package",

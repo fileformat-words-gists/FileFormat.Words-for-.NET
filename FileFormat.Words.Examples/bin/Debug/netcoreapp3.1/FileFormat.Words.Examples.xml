@@ -87,6 +87,85 @@
             The name of the modified Word Document (default is "ModifiedWordImages.docx").
             </param>
         </member>
+        <member name="T:FileFormat.Words.Examples.ParagraphAlignmentExamples">
+            <summary>
+            Provides C# code examples for creating, reading, and modifying alignment of Word paragraphs
+            using the <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a> library.
+            </summary>
+            <example>
+            <code>
+            // Prepares directory Documents/Paragraph/Alignment at the root of your project.
+            // Check reference for more options and details.
+            ParagraphAlignmentExamples paragraphAlignment = new ParagraphAlignmentExamples();
+            // Creates a word document with paragraphs having different alignments and saves word document
+            // to the specified directory. Check reference for more options and details.
+            paragraphAlignment.CreateAlignment();
+            // Reads Paragraphs from the specified Word Document and displays plain text alongwith alignment.
+            // Check reference for more options and details.
+            paragraphAlignment.ReadAlignment();
+            // Modifies Paragraph's alignment in the specified Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphAlignment.ModifyAlignment();
+            </code>
+            </example>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphExamples"/> class.
+            Prepares the directory 'Documents/Paragraph/Alignment' for storing or loading Word documents
+            at the root of the project.
+            If the directory doesn't exist, it is created. If it already exists,
+            existing files are deleted, and the directory is cleaned up.
+            </summary>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment(System.String,System.String)">
+            <summary>
+            Creates a new Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Generates paragraphs with different alignments including left, center, right and justify.
+            Saves the newly created Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file (default is "WordParagraphs.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment(System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses paragraphs and displays its text along with alignment.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present
+            (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to load (default is "WordParagraphs.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(System.String,System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses through all paragraphs within the document.
+            Modifies paragraphs by appending ' (alignment modified to justify)' with italic format
+            and justify alignment.
+            Saves the modified Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present and
+            the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to modify (default is "WordParagraphs.docx").
+            </param>
+            <param name="filenameModified">
+            The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").
+            </param>
+        </member>
         <member name="T:FileFormat.Words.Examples.ParagraphExamples">
             <summary>
             Provides C# code examples for creating, reading, and modifying Word paragraphs
@@ -154,6 +233,85 @@
             <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
             Modifies paragraphs by prepending 'Modified Heading :' for styled paragraphs
             and 'Modified Run :' for each run within normal paragraphs, preserving the existing format.
+            Saves the modified Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present and
+            the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to modify (default is "WordParagraphs.docx").
+            </param>
+            <param name="filenameModified">
+            The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").
+            </param>
+        </member>
+        <member name="T:FileFormat.Words.Examples.ParagraphIndentExamples">
+            <summary>
+            Provides C# code examples for creating, reading, and modifying indentation of Word paragraphs
+            using the <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a> library.
+            </summary>
+            <example>
+            <code>
+            // Prepares directory Documents/Paragraph/Indent at the root of your project.
+            // Check reference for more options and details.
+            ParagraphIndentExamples paragraphIndentExamples = new ParagraphIndentExamples();
+            // Creates a word document with paragraphs having various indentations and saves word document
+            // to the specified directory. Check reference for more options and details.
+            paragraphIndentExamples.CreateIndent();
+            // Reads Paragraphs from the specified Word Document and displays plain text with indentation.
+            // Check reference for more options and details.
+            paragraphIndentExamples.ReadIndent();
+            // Modifies Paragraph's indentation in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphIndentExamples.ModifyIndent();
+            </code>
+            </example>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphExamples"/> class.
+            Prepares the directory 'Documents/Paragraph/Indent' for storing or loading Word documents
+            at the root of the project.
+            If the directory doesn't exist, it is created. If it already exists,
+            existing files are deleted, and the directory is cleaned up.
+            </summary>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent(System.String,System.String)">
+            <summary>
+            Creates a new Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Generates paragraphs with different indents including left, right, firstline and hanging.
+            Saves the newly created Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file (default is "WordParagraphs.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent(System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses paragraphs and displays its text along with indentation.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present
+            (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to load (default is "WordParagraphs.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(System.String,System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses through all paragraphs within the document.
+            Modifies paragraphs by appending the relevant indent message in italic format
+            and modifies the indent (if found) to 0.
             Saves the modified Word Document.
             </summary>
             <param name="documentDirectory">

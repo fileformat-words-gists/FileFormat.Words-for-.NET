@@ -7,6 +7,7 @@ namespace FileFormat.Words.Examples.Usage
     {
         static void Main(string[] args)
         {
+            
             // Prepares directory Documents/Paragraph at the root of your project.
             // Check reference for more options and details.
             ParagraphExamples paragraphExamples = new ParagraphExamples();
@@ -45,6 +46,32 @@ namespace FileFormat.Words.Examples.Usage
             // Modify Images in the specified Word Document and saves the modified word document.
             // Check reference for more options and details.
             tableExamples.ModifyTablesInWordDocument();
+
+            // Prepares directory Documents/Paragraph/Alignment at the root of your project.
+            // Check reference for more options and details.
+            ParagraphAlignmentExamples paragraphAlignment = new ParagraphAlignmentExamples();
+            // Creates a word document with paragraphs having different alignments and saves word document
+            // to the specified directory. Check reference for more options and details.
+            paragraphAlignment.CreateAlignment();
+            // Reads Paragraphs from the specified Word Document and displays plain text alongwith alignment.
+            // Check reference for more options and details.
+            paragraphAlignment.ReadAlignment();
+            // Modifies Paragraph's alignment in the specified Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphAlignment.ModifyAlignment();
+
+            // Prepares directory Documents/Paragraph/Indent at the root of your project.
+            // Check reference for more options and details.
+            ParagraphIndentExamples paragraphIndentExamples = new ParagraphIndentExamples();
+            // Creates a word document with paragraphs having various indentations and saves word document
+            // to the specified directory. Check reference for more options and details.
+            paragraphIndentExamples.CreateIndent();
+            // Reads Paragraphs from the specified Word Document and displays plain text with indentation.
+            // Check reference for more options and details.
+            paragraphIndentExamples.ReadIndent();
+            // Modifies Paragraph's indentation in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphIndentExamples.ModifyIndent();
         }
     }
 }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yluGtIz3QTH1ZOEENN7VNOxF5ubqWhtlkdZut24P4xnK92HZvbgtWS/nkdw8Sc0RWK8iuwzoFX+CArQx/BDb5w==",
+  "dgSpecHash": "+tFY5IN6UbnFt1dVP48P7mAolhzhT9OHd9Tm/tGNvJ7CpYSo3W0fb7LjlXB1PKrt4hsGkt+WlvIFVLOiy2uBAA==",
   "success": true,
   "projectFilePath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
   "expectedPackageFiles": [
     "/Users/muhammadsabir/.nuget/packages/documentformat.openxml/2.20.0/documentformat.openxml.2.20.0.nupkg.sha512",
-    "/Users/muhammadsabir/.nuget/packages/fileformat.words/23.10.0/fileformat.words.23.10.0.nupkg.sha512",
+    "/Users/muhammadsabir/.nuget/packages/fileformat.words/24.2.0/fileformat.words.24.2.0.nupkg.sha512",
     "/Users/muhammadsabir/.nuget/packages/skiasharp/2.88.6/skiasharp.2.88.6.nupkg.sha512",
     "/Users/muhammadsabir/.nuget/packages/skiasharp.nativeassets.macos/2.88.6/skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
     "/Users/muhammadsabir/.nuget/packages/skiasharp.nativeassets.win32/2.88.6/skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",

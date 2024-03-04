@@ -76,6 +76,75 @@ references:
   commentId: Overload:FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
   fullName: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
   nameWithType: ImageExamples.ReadImagesInWordDocument
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples
+  name: ParagraphAlignmentExamples
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html
+  commentId: T:FileFormat.Words.Examples.ParagraphAlignmentExamples
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples
+  nameWithType: ParagraphAlignmentExamples
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor
+  name: ParagraphAlignmentExamples()
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ParagraphAlignmentExamples()
+  fullName.vb: FileFormat.Words.Examples.ParagraphAlignmentExamples.New()
+  nameWithType: ParagraphAlignmentExamples.ParagraphAlignmentExamples()
+  nameWithType.vb: ParagraphAlignmentExamples.New()
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor*
+  name: ParagraphAlignmentExamples
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ParagraphAlignmentExamples
+  fullName.vb: FileFormat.Words.Examples.ParagraphAlignmentExamples.New
+  nameWithType: ParagraphAlignmentExamples.ParagraphAlignmentExamples
+  nameWithType.vb: ParagraphAlignmentExamples.New
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment(System.String,System.String)
+  name: CreateAlignment(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_CreateAlignment_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment(System.String,System.String)
+  name.vb: CreateAlignment(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment(String, String)
+  nameWithType: ParagraphAlignmentExamples.CreateAlignment(string, string)
+  nameWithType.vb: ParagraphAlignmentExamples.CreateAlignment(String, String)
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment*
+  name: CreateAlignment
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_CreateAlignment_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.CreateAlignment
+  nameWithType: ParagraphAlignmentExamples.CreateAlignment
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(System.String,System.String,System.String)
+  name: ModifyAlignment(string, string, string)
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_ModifyAlignment_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(System.String,System.String,System.String)
+  name.vb: ModifyAlignment(String, String, String)
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(String, String, String)
+  nameWithType: ParagraphAlignmentExamples.ModifyAlignment(string, string, string)
+  nameWithType.vb: ParagraphAlignmentExamples.ModifyAlignment(String, String, String)
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment*
+  name: ModifyAlignment
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_ModifyAlignment_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment
+  nameWithType: ParagraphAlignmentExamples.ModifyAlignment
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment(System.String,System.String)
+  name: ReadAlignment(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_ReadAlignment_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment(System.String,System.String)
+  name.vb: ReadAlignment(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment(String, String)
+  nameWithType: ParagraphAlignmentExamples.ReadAlignment(string, string)
+  nameWithType.vb: ParagraphAlignmentExamples.ReadAlignment(String, String)
+- uid: FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment*
+  name: ReadAlignment
+  href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html#FileFormat_Words_Examples_ParagraphAlignmentExamples_ReadAlignment_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment
+  fullName: FileFormat.Words.Examples.ParagraphAlignmentExamples.ReadAlignment
+  nameWithType: ParagraphAlignmentExamples.ReadAlignment
 - uid: FileFormat.Words.Examples.ParagraphExamples
   name: ParagraphExamples
   href: api/FileFormat.Words.Examples.ParagraphExamples.html
@@ -145,6 +214,75 @@ references:
   commentId: Overload:FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs
   fullName: FileFormat.Words.Examples.ParagraphExamples.ReadWordParagraphs
   nameWithType: ParagraphExamples.ReadWordParagraphs
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples
+  name: ParagraphIndentExamples
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html
+  commentId: T:FileFormat.Words.Examples.ParagraphIndentExamples
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples
+  nameWithType: ParagraphIndentExamples
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.#ctor
+  name: ParagraphIndentExamples()
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ParagraphIndentExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ParagraphIndentExamples()
+  fullName.vb: FileFormat.Words.Examples.ParagraphIndentExamples.New()
+  nameWithType: ParagraphIndentExamples.ParagraphIndentExamples()
+  nameWithType.vb: ParagraphIndentExamples.New()
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.#ctor*
+  name: ParagraphIndentExamples
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphIndentExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ParagraphIndentExamples
+  fullName.vb: FileFormat.Words.Examples.ParagraphIndentExamples.New
+  nameWithType: ParagraphIndentExamples.ParagraphIndentExamples
+  nameWithType.vb: ParagraphIndentExamples.New
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent(System.String,System.String)
+  name: CreateIndent(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_CreateIndent_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent(System.String,System.String)
+  name.vb: CreateIndent(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent(String, String)
+  nameWithType: ParagraphIndentExamples.CreateIndent(string, string)
+  nameWithType.vb: ParagraphIndentExamples.CreateIndent(String, String)
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent*
+  name: CreateIndent
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_CreateIndent_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.CreateIndent
+  nameWithType: ParagraphIndentExamples.CreateIndent
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(System.String,System.String,System.String)
+  name: ModifyIndent(string, string, string)
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_ModifyIndent_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(System.String,System.String,System.String)
+  name.vb: ModifyIndent(String, String, String)
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(String, String, String)
+  nameWithType: ParagraphIndentExamples.ModifyIndent(string, string, string)
+  nameWithType.vb: ParagraphIndentExamples.ModifyIndent(String, String, String)
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent*
+  name: ModifyIndent
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_ModifyIndent_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent
+  nameWithType: ParagraphIndentExamples.ModifyIndent
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent(System.String,System.String)
+  name: ReadIndent(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_ReadIndent_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent(System.String,System.String)
+  name.vb: ReadIndent(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent(String, String)
+  nameWithType: ParagraphIndentExamples.ReadIndent(string, string)
+  nameWithType.vb: ParagraphIndentExamples.ReadIndent(String, String)
+- uid: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent*
+  name: ReadIndent
+  href: api/FileFormat.Words.Examples.ParagraphIndentExamples.html#FileFormat_Words_Examples_ParagraphIndentExamples_ReadIndent_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent
+  fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent
+  nameWithType: ParagraphIndentExamples.ReadIndent
 - uid: FileFormat.Words.Examples.TableExamples
   name: TableExamples
   href: api/FileFormat.Words.Examples.TableExamples.html
