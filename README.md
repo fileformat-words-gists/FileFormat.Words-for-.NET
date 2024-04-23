@@ -19,6 +19,9 @@
 - [Create Word Paragraph Indent in C#](#create-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/87676cf05f3fe03a30a8a08087ce3faf)
 - [Read Word Paragraph Indent in C#](#read-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/951eb4906ef57d8d6b93b1f009700a54)
 - [Modify Word Paragraph Indent in C#](#modify-word-paragraph-indent-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/95efc98b9e1b579c3201309697c4ef97)
+- [Create Numbered Word Paragraphs in C#](#create-numbered-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/87676cf05f3fe03a30a8a08087ce3faf)
+- [Read Numbered Word Paragraphs in C#](#read-numbered-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/03003fe62a750d20fc3c3351c401fce1)
+- [Modify Numbered Word Paragraphs in C#](#modify-numbered-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/54529e570031b98be281539a81713ef1)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -124,6 +127,24 @@
 * Modifies paragraphs by appending the relevant indent message in italic format and modifies the indent (if found) to 0.
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/95efc98b9e1b579c3201309697c4ef97)
+
+## [Create Numbered Word Paragraphs in C#](https://gist.github.com/fileformat-words-gists/ea4a47288075c796ff5dd6bb97fccf1f)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates numbered paragraphs with nested levels.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/ea4a47288075c796ff5dd6bb97fccf1f)
+
+## [Read Numbered Word Paragraphs in C#](https://gist.github.com/fileformat-words-gists/03003fe62a750d20fc3c3351c401fce1)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses paragraphs and displays its text, numbering and level.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/03003fe62a750d20fc3c3351c401fce1)
+
+## [Modify Numbered Word Paragraphs in C#](https://gist.github.com/fileformat-words-gists/54529e570031b98be281539a81713ef1)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through all paragraphs within the document.
+* If numbered, modifies paragraphs by appending ' (numering removed)' with italic format and paragraph number is removed.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/54529e570031b98be281539a81713ef1)
 
 ## Resources
 * [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
