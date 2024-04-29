@@ -283,6 +283,144 @@ references:
   commentId: Overload:FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent
   fullName: FileFormat.Words.Examples.ParagraphIndentExamples.ReadIndent
   nameWithType: ParagraphIndentExamples.ReadIndent
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples
+  name: ParagraphNumberExamples
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html
+  commentId: T:FileFormat.Words.Examples.ParagraphNumberExamples
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples
+  nameWithType: ParagraphNumberExamples
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.#ctor
+  name: ParagraphNumberExamples()
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ParagraphNumberExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ParagraphNumberExamples()
+  fullName.vb: FileFormat.Words.Examples.ParagraphNumberExamples.New()
+  nameWithType: ParagraphNumberExamples.ParagraphNumberExamples()
+  nameWithType.vb: ParagraphNumberExamples.New()
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.#ctor*
+  name: ParagraphNumberExamples
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphNumberExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ParagraphNumberExamples
+  fullName.vb: FileFormat.Words.Examples.ParagraphNumberExamples.New
+  nameWithType: ParagraphNumberExamples.ParagraphNumberExamples
+  nameWithType.vb: ParagraphNumberExamples.New
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs(System.String,System.String)
+  name: CreateNumberedParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_CreateNumberedParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs(System.String,System.String)
+  name.vb: CreateNumberedParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs(String, String)
+  nameWithType: ParagraphNumberExamples.CreateNumberedParagraphs(string, string)
+  nameWithType.vb: ParagraphNumberExamples.CreateNumberedParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs*
+  name: CreateNumberedParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_CreateNumberedParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs
+  nameWithType: ParagraphNumberExamples.CreateNumberedParagraphs
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs(System.String,System.String,System.String)
+  name: ModifyNumberedParagraphs(string, string, string)
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_ModifyNumberedParagraphs_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs(System.String,System.String,System.String)
+  name.vb: ModifyNumberedParagraphs(String, String, String)
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs(String, String, String)
+  nameWithType: ParagraphNumberExamples.ModifyNumberedParagraphs(string, string, string)
+  nameWithType.vb: ParagraphNumberExamples.ModifyNumberedParagraphs(String, String, String)
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs*
+  name: ModifyNumberedParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_ModifyNumberedParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs
+  nameWithType: ParagraphNumberExamples.ModifyNumberedParagraphs
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs(System.String,System.String)
+  name: ReadNumberedParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_ReadNumberedParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs(System.String,System.String)
+  name.vb: ReadNumberedParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs(String, String)
+  nameWithType: ParagraphNumberExamples.ReadNumberedParagraphs(string, string)
+  nameWithType.vb: ParagraphNumberExamples.ReadNumberedParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs*
+  name: ReadNumberedParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphNumberExamples.html#FileFormat_Words_Examples_ParagraphNumberExamples_ReadNumberedParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs
+  nameWithType: ParagraphNumberExamples.ReadNumberedParagraphs
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples
+  name: ParagraphRomanAlphabeticExamples
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html
+  commentId: T:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples
+  nameWithType: ParagraphRomanAlphabeticExamples
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.#ctor
+  name: ParagraphRomanAlphabeticExamples()
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ParagraphRomanAlphabeticExamples()
+  fullName.vb: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.New()
+  nameWithType: ParagraphRomanAlphabeticExamples.ParagraphRomanAlphabeticExamples()
+  nameWithType.vb: ParagraphRomanAlphabeticExamples.New()
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.#ctor*
+  name: ParagraphRomanAlphabeticExamples
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ParagraphRomanAlphabeticExamples
+  fullName.vb: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.New
+  nameWithType: ParagraphRomanAlphabeticExamples.ParagraphRomanAlphabeticExamples
+  nameWithType.vb: ParagraphRomanAlphabeticExamples.New
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(System.String,System.String)
+  name: CreateRomanAlphabeticParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_CreateRomanAlphabeticParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(System.String,System.String)
+  name.vb: CreateRomanAlphabeticParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(String, String)
+  nameWithType: ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(string, string)
+  nameWithType.vb: ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs*
+  name: CreateRomanAlphabeticParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_CreateRomanAlphabeticParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs
+  nameWithType: ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(System.String,System.String,System.String)
+  name: ModifyRomanAlphabeticParagraphs(string, string, string)
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_ModifyRomanAlphabeticParagraphs_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(System.String,System.String,System.String)
+  name.vb: ModifyRomanAlphabeticParagraphs(String, String, String)
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(String, String, String)
+  nameWithType: ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(string, string, string)
+  nameWithType.vb: ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(String, String, String)
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs*
+  name: ModifyRomanAlphabeticParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_ModifyRomanAlphabeticParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs
+  nameWithType: ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(System.String,System.String)
+  name: ReadRomanAlphabeticParagraphs(string, string)
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_ReadRomanAlphabeticParagraphs_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(System.String,System.String)
+  name.vb: ReadRomanAlphabeticParagraphs(String, String)
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(string, string)
+  fullName.vb: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(String, String)
+  nameWithType: ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(string, string)
+  nameWithType.vb: ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(String, String)
+- uid: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs*
+  name: ReadRomanAlphabeticParagraphs
+  href: api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html#FileFormat_Words_Examples_ParagraphRomanAlphabeticExamples_ReadRomanAlphabeticParagraphs_
+  commentId: Overload:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs
+  fullName: FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs
+  nameWithType: ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs
 - uid: FileFormat.Words.Examples.TableExamples
   name: TableExamples
   href: api/FileFormat.Words.Examples.TableExamples.html

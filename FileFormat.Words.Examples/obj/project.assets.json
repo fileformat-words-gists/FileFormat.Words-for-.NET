@@ -14,7 +14,7 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "FileFormat.Words/24.2.0": {
+      "FileFormat.Words/24.3.0": {
         "type": "package",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0"
@@ -113,16 +113,16 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "FileFormat.Words/24.2.0": {
-      "sha512": "SFMo+/MlRcuGZdKZQGuUSxjSgcqjIkhCT06zfjySFMd+i02v+TXTegzMxGTFqUXqYcf+80XuP3hV+7NC9wM6Kw==",
+    "FileFormat.Words/24.3.0": {
+      "sha512": "ieo3l/hntkcONcga50tVfiFX+hTJiaei5eYNN/7EZFp8Ld6Yq+tE05guHpCTYFLipCc+uzcD4ENwlBozMPtIOw==",
       "type": "package",
-      "path": "fileformat.words/24.2.0",
+      "path": "fileformat.words/24.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Cert.pfx",
         "README.md",
-        "fileformat.words.24.2.0.nupkg.sha512",
+        "fileformat.words.24.3.0.nupkg.sha512",
         "fileformat.words.nuspec",
         "fileformat_words-for-net.png",
         "lib/netcoreapp3.1/FileFormat.Words.dll",
@@ -282,7 +282,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DocumentFormat.OpenXml >= 2.20.0",
-      "FileFormat.Words >= 24.2.0",
+      "FileFormat.Words >= 24.3.0",
       "SkiaSharp >= 2.88.6"
     ]
   },
@@ -292,11 +292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
+      "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
       "projectName": "FileFormat.Words.Examples",
-      "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
+      "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
       "packagesPath": "/Users/muhammadsabir/.nuget/packages/",
-      "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/",
+      "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muhammadsabir/.config/NuGet/NuGet.Config"
@@ -329,7 +329,7 @@
           },
           "FileFormat.Words": {
             "target": "Package",
-            "version": "[24.2.0, )"
+            "version": "[24.3.0, )"
           },
           "SkiaSharp": {
             "target": "Package",

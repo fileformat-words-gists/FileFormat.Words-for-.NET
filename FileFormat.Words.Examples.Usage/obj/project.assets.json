@@ -14,7 +14,7 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "FileFormat.Words/24.2.0": {
+      "FileFormat.Words/24.3.0": {
         "type": "package",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0"
@@ -91,7 +91,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0",
-          "FileFormat.Words": "24.2.0",
+          "FileFormat.Words": "24.3.0",
           "SkiaSharp": "2.88.6"
         },
         "compile": {
@@ -128,16 +128,16 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "FileFormat.Words/24.2.0": {
-      "sha512": "SFMo+/MlRcuGZdKZQGuUSxjSgcqjIkhCT06zfjySFMd+i02v+TXTegzMxGTFqUXqYcf+80XuP3hV+7NC9wM6Kw==",
+    "FileFormat.Words/24.3.0": {
+      "sha512": "ieo3l/hntkcONcga50tVfiFX+hTJiaei5eYNN/7EZFp8Ld6Yq+tE05guHpCTYFLipCc+uzcD4ENwlBozMPtIOw==",
       "type": "package",
-      "path": "fileformat.words/24.2.0",
+      "path": "fileformat.words/24.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Cert.pfx",
         "README.md",
-        "fileformat.words.24.2.0.nupkg.sha512",
+        "fileformat.words.24.3.0.nupkg.sha512",
         "fileformat.words.nuspec",
         "fileformat_words-for-net.png",
         "lib/netcoreapp3.1/FileFormat.Words.dll",
@@ -310,11 +310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples.Usage/FileFormat.Words.Examples.Usage.csproj",
+      "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples.Usage/FileFormat.Words.Examples.Usage.csproj",
       "projectName": "FileFormat.Words.Examples.Usage",
-      "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples.Usage/FileFormat.Words.Examples.Usage.csproj",
+      "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples.Usage/FileFormat.Words.Examples.Usage.csproj",
       "packagesPath": "/Users/muhammadsabir/.nuget/packages/",
-      "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples.Usage/obj/",
+      "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples.Usage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muhammadsabir/.config/NuGet/NuGet.Config"
@@ -329,8 +329,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {
-              "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj"
+            "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {
+              "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj"
             }
           }
         }

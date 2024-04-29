@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/Users/muhammadsabir/Projects/docfx_project/24.2.0/Examples/docfx_project",
+  "source_base_path": "/Users/muhammadsabir/Projects/docfx_project/24.3.0/Examples/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -46,6 +46,26 @@
       "output": {
         ".html": {
           "relative_path": "api/FileFormat.Words.Examples.ParagraphIndentExamples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FileFormat.Words.Examples.ParagraphNumberExamples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FileFormat.Words.Examples.ParagraphNumberExamples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.html"
         }
       },
       "version": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {}
+    "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {}
   },
   "projects": {
-    "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {
+    "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
+        "projectUniqueName": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
         "projectName": "FileFormat.Words.Examples",
-        "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
+        "projectPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/FileFormat.Words.Examples.csproj",
         "packagesPath": "/Users/muhammadsabir/.nuget/packages/",
-        "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.Examples/FileFormat.Words.Examples/obj/",
+        "outputPath": "/Users/muhammadsabir/Projects/FileFormat.Words.24.3.0/FileFormat.Words.Examples/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/muhammadsabir/.config/NuGet/NuGet.Config"
@@ -44,7 +44,7 @@
             },
             "FileFormat.Words": {
               "target": "Package",
-              "version": "[24.2.0, )"
+              "version": "[24.3.0, )"
             },
             "SkiaSharp": {
               "target": "Package",

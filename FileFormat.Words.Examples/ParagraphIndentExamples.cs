@@ -26,7 +26,7 @@ namespace FileFormat.Words.Examples
     {
         private const string docsDirectory = "../../../Documents/Paragraph/Indent";
         /// <summary>
-        /// Initializes a new instance of the <see cref="ParagraphExamples"/> class.
+        /// Initializes a new instance of the <see cref="ParagraphIndentExamples"/> class.
         /// Prepares the directory 'Documents/Paragraph/Indent' for storing or loading Word documents
         /// at the root of the project.
         /// If the directory doesn't exist, it is created. If it already exists,
@@ -136,10 +136,10 @@ namespace FileFormat.Words.Examples
         /// </summary>
         /// <param name="documentDirectory">
         /// The directory where the Word Document to load is present
-        /// (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+        /// (default is the 'Documents/Paragraph/Indent' directory auto-created at the root of your project).
         /// </param>
         /// <param name="filename">
-        /// The name of the Word Document file to load (default is "WordParagraphs.docx").
+        /// The name of the Word Document file to load (default is "WordParagraphsIndented.docx").
         /// </param>
         public void ReadIndent(string documentDirectory = docsDirectory, string filename = "WordParagraphsIndented.docx")
         {
@@ -193,13 +193,13 @@ namespace FileFormat.Words.Examples
         /// </summary>
         /// <param name="documentDirectory">
         /// The directory where the Word Document to load is present and
-        /// the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+        /// the modified document will be saved (default is the 'Documents/Paragraph/Indent' directory auto-created at the root of your project).
         /// </param>
         /// <param name="filename">
-        /// The name of the Word Document file to modify (default is "WordParagraphs.docx").
+        /// The name of the Word Document file to modify (default is "WordParagraphsIndented.docx").
         /// </param>
         /// <param name="filenameModified">
-        /// The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").
+        /// The name of the modified Word Document (default is "ModifiedWordParagraphsIndented.docx").
         /// </param>
         public void ModifyIndent(string documentDirectory = docsDirectory,
             string filename = "WordParagraphsIndented.docx", string filenameModified = "ModifiedWordParagraphsIndented.docx")

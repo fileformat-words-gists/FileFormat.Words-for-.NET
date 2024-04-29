@@ -111,7 +111,7 @@
         </member>
         <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphExamples"/> class.
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphAlignmentExamples"/> class.
             Prepares the directory 'Documents/Paragraph/Alignment' for storing or loading Word documents
             at the root of the project.
             If the directory doesn't exist, it is created. If it already exists,
@@ -126,7 +126,7 @@
             Saves the newly created Word Document.
             </summary>
             <param name="documentDirectory">
-            The directory where the Word Document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            The directory where the Word Document will be saved (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
             </param>
             <param name="filename">
             The name of the Word Document file (default is "WordParagraphs.docx").
@@ -140,10 +140,10 @@
             </summary>
             <param name="documentDirectory">
             The directory where the Word Document to load is present
-            (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
             </param>
             <param name="filename">
-            The name of the Word Document file to load (default is "WordParagraphs.docx").
+            The name of the Word Document file to load (default is "WordParagraphsAligned.docx").
             </param>
         </member>
         <member name="M:FileFormat.Words.Examples.ParagraphAlignmentExamples.ModifyAlignment(System.String,System.String,System.String)">
@@ -157,13 +157,13 @@
             </summary>
             <param name="documentDirectory">
             The directory where the Word Document to load is present and
-            the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            the modified document will be saved (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
             </param>
             <param name="filename">
-            The name of the Word Document file to modify (default is "WordParagraphs.docx").
+            The name of the Word Document file to modify (default is "WordParagraphsAligned.docx").
             </param>
             <param name="filenameModified">
-            The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").
+            The name of the modified Word Document (default is "ModifiedWordParagraphsAligned.docx").
             </param>
         </member>
         <member name="T:FileFormat.Words.Examples.ParagraphExamples">
@@ -270,7 +270,7 @@
         </member>
         <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphExamples"/> class.
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphIndentExamples"/> class.
             Prepares the directory 'Documents/Paragraph/Indent' for storing or loading Word documents
             at the root of the project.
             If the directory doesn't exist, it is created. If it already exists,
@@ -299,10 +299,10 @@
             </summary>
             <param name="documentDirectory">
             The directory where the Word Document to load is present
-            (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            (default is the 'Documents/Paragraph/Indent' directory auto-created at the root of your project).
             </param>
             <param name="filename">
-            The name of the Word Document file to load (default is "WordParagraphs.docx").
+            The name of the Word Document file to load (default is "WordParagraphsIndented.docx").
             </param>
         </member>
         <member name="M:FileFormat.Words.Examples.ParagraphIndentExamples.ModifyIndent(System.String,System.String,System.String)">
@@ -316,10 +316,168 @@
             </summary>
             <param name="documentDirectory">
             The directory where the Word Document to load is present and
-            the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+            the modified document will be saved (default is the 'Documents/Paragraph/Indent' directory auto-created at the root of your project).
             </param>
             <param name="filename">
-            The name of the Word Document file to modify (default is "WordParagraphs.docx").
+            The name of the Word Document file to modify (default is "WordParagraphsIndented.docx").
+            </param>
+            <param name="filenameModified">
+            The name of the modified Word Document (default is "ModifiedWordParagraphsIndented.docx").
+            </param>
+        </member>
+        <member name="T:FileFormat.Words.Examples.ParagraphNumberExamples">
+            <summary>
+            Provides C# code examples for creating, reading, and modifying numbered paragraphs in DOCX word
+            using the <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a> library.
+            </summary>
+            <example>
+            <code>
+            // Prepares directory Documents/Paragraph/Numbering at the root of your project.
+            // Check reference for more options and details.
+            var paragraphNumberExamples = new ParagraphNumberExamples();
+            // Creates a word document with paragraphs having various numbering levels and saves word
+            // document to the specified directory. Check reference for more options and details.
+            paragraphNumberExamples.CreateNumberedParagraphs();
+            // Reads Paragraphs from the specified Word Document and displays plain text alongwith numbering info.
+            // Check reference for more options and details.
+            paragraphNumberExamples.ReadNumberedParagraphs();
+            // Modifies Paragraph's numbering in the specified Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphNumberExamples.ModifyNumberedParagraphs();
+            </code>
+            </example>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphNumberExamples.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphNumberExamples"/> class.
+            Prepares the directory 'Documents/Paragraph/Numbering' for storing or loading Word documents
+            at the root of the project.
+            If the directory doesn't exist, it is created. If it already exists,
+            existing files are deleted, and the directory is cleaned up.
+            </summary>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphNumberExamples.CreateNumberedParagraphs(System.String,System.String)">
+            <summary>
+            Creates a new Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Generates numbered paragraphs with nested levels.
+            Saves the newly created Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document will be saved (default is the 'Documents/Paragraph/Numbering' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file (default is "WordParagraphsNumbered.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphNumberExamples.ReadNumberedParagraphs(System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses paragraphs and displays its text, numbering and level.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present
+            (default is the 'Documents/Paragraph/Numbering' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to load (default is "WordParagraphsNumbered.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphNumberExamples.ModifyNumberedParagraphs(System.String,System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses through all paragraphs within the document.
+            If numbered, modifies paragraphs by appending ' (numering removed)' with italic format
+            and paragraph number is removed.
+            Saves the modified Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present and
+            the modified document will be saved (default is the 'Documents/Paragraph/Numbering' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to modify (default is "WordParagraphsNumbered.docx").
+            </param>
+            <param name="filenameModified">
+            The name of the modified Word Document (default is "ModifiedWordParagraphsNumbered.docx").
+            </param>
+        </member>
+        <member name="T:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples">
+            <summary>
+            Provides C# code examples for creating, reading, and modifying Roman+Alphabetic paragraphs in DOCX
+            using the <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a> library.
+            </summary>
+            <example>
+            <code>
+            // Prepares directory Documents/Paragraph/RomanAlphabetic at the root of your project.
+            // Check reference for more options and details.
+            var paragraphRomanAlphabeticExamples = new ParagraphRomanAlphabeticExamples();
+            // Creates a word document with paragraphs having roman and alphabetic levels and saves word
+            // document to the specified directory. Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs();
+            // Reads Paragraphs from the specified Word Document and displays plain text with roman and alphabetic info.
+            // Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs();
+            // Modifies Roman and Alphabetic paragraphs in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs();
+            </code>
+            </example>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples"/> class.
+            Prepares the directory 'Documents/Paragraph/RomanAlphabetic' for storing or loading Word documents
+            at the root of the project.
+            If the directory doesn't exist, it is created. If it already exists,
+            existing files are deleted, and the directory is cleaned up.
+            </summary>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs(System.String,System.String)">
+            <summary>
+            Creates a new Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Generates roman and alphabetic paragraphs with nested levels.
+            Saves the newly created Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document will be saved (default is the 'Documents/Paragraph/RomanAlphabetic' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file (default is "WordParagraphsRomanAlphabetic.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs(System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses paragraphs and displays its text, roman/alphabetic status and level.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present
+            (default is the 'Documents/Paragraph/RomanAlphabetic' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to load (default is "WordParagraphsRomanAlphabetic.docx").
+            </param>
+        </member>
+        <member name="M:FileFormat.Words.Examples.ParagraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs(System.String,System.String,System.String)">
+            <summary>
+            Loads a Word Document with structured content using 
+            <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
+            Traverses through all paragraphs within the document.
+            If alphabetic, modifies paragraphs by appending ' (alphabetic removed)' with italic format
+            and paragraph alphabetic is removed.
+            Saves the modified Word Document.
+            </summary>
+            <param name="documentDirectory">
+            The directory where the Word Document to load is present and
+            the modified document will be saved (default is the 'Documents/Paragraph/RomanAlphabetic' directory auto-created at the root of your project).
+            </param>
+            <param name="filename">
+            The name of the Word Document file to modify (default is "WordParagraphsRomanAlphabetic.docx").
             </param>
             <param name="filenameModified">
             The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").

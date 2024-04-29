@@ -7,7 +7,6 @@ namespace FileFormat.Words.Examples.Usage
     {
         static void Main(string[] args)
         {
-            
             // Prepares directory Documents/Paragraph at the root of your project.
             // Check reference for more options and details.
             ParagraphExamples paragraphExamples = new ParagraphExamples();
@@ -72,6 +71,32 @@ namespace FileFormat.Words.Examples.Usage
             // Modifies Paragraph's indentation in the Word Document and saves the modified word document.
             // Check reference for more options and details.
             paragraphIndentExamples.ModifyIndent();
+
+            // Prepares directory Documents/Paragraph/Numbering at the root of your project.
+            // Check reference for more options and details.
+            var paragraphNumberExamples = new ParagraphNumberExamples();
+            // Creates a word document with paragraphs having various numbering levels and saves word
+            // document to the specified directory. Check reference for more options and details.
+            paragraphNumberExamples.CreateNumberedParagraphs();
+            // Reads Paragraphs from the specified Word Document and displays plain text with numbering info.
+            // Check reference for more options and details.
+            paragraphNumberExamples.ReadNumberedParagraphs();
+            // Modifies Paragraph's numbering in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphNumberExamples.ModifyNumberedParagraphs();
+
+            // Prepares directory Documents/Paragraph/RomanAlphabeitc at the root of your project.
+            // Check reference for more options and details.
+            var paragraphRomanAlphabeticExamples = new ParagraphRomanAlphabeticExamples();
+            // Creates a word document with paragraphs having roman and alphabetic levels and saves word
+            // document to the specified directory. Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.CreateRomanAlphabeticParagraphs();
+            // Reads Paragraphs from the specified Word Document and displays plain text with roman and alphabetic info.
+            // Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.ReadRomanAlphabeticParagraphs();
+            // Modifies Roman and Alphabetic paragraphs in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            paragraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs();
         }
     }
 }

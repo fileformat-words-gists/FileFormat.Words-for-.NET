@@ -26,7 +26,7 @@ namespace FileFormat.Words.Examples
     {
         private const string docsDirectory = "../../../Documents/Paragraph/Alignment";
         /// <summary>
-        /// Initializes a new instance of the <see cref="ParagraphExamples"/> class.
+        /// Initializes a new instance of the <see cref="ParagraphAlignmentExamples"/> class.
         /// Prepares the directory 'Documents/Paragraph/Alignment' for storing or loading Word documents
         /// at the root of the project.
         /// If the directory doesn't exist, it is created. If it already exists,
@@ -60,7 +60,7 @@ namespace FileFormat.Words.Examples
         /// Saves the newly created Word Document.
         /// </summary>
         /// <param name="documentDirectory">
-        /// The directory where the Word Document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+        /// The directory where the Word Document will be saved (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
         /// </param>
         /// <param name="filename">
         /// The name of the Word Document file (default is "WordParagraphs.docx").
@@ -78,40 +78,40 @@ namespace FileFormat.Words.Examples
                 System.Console.WriteLine("Body of the Word Document initialized");
 
                 // Add paragraph with left alignment
-                FileFormat.Words.IElements.Paragraph para1 = new FileFormat.Words.IElements.Paragraph();
+                var para1 = new FileFormat.Words.IElements.Paragraph();
                 para1.AddRun(new FileFormat.Words.IElements.Run
                 {
-                    Text = "First paragraph with center alignment"
+                    Text = "First paragraph with left alignment"
                 });
                 // Setting the Paragraph Alignment to Center.
-                para1.Alignment = "Left";
+                para1.Alignment = FileFormat.Words.IElements.ParagraphAlignment.Left; //"Left";
 
                 // Add paragraph with center alignment
-                FileFormat.Words.IElements.Paragraph para2 = new FileFormat.Words.IElements.Paragraph();
+                var para2 = new FileFormat.Words.IElements.Paragraph();
                 para2.AddRun(new FileFormat.Words.IElements.Run
                 {
                     Text = "Second paragraph with center alignment"
                 });
                 // Setting the Paragraph Alignment to Center.
-                para2.Alignment = "Center";
+                para2.Alignment = FileFormat.Words.IElements.ParagraphAlignment.Center; //"Center";
 
                 // Add paragraph with right alignment
-                FileFormat.Words.IElements.Paragraph para3 = new FileFormat.Words.IElements.Paragraph();
+                var para3 = new FileFormat.Words.IElements.Paragraph();
                 para3.AddRun(new FileFormat.Words.IElements.Run
                 {
                     Text = "Third paragraph with right alignment"
                 });
                 // Setting the Paragraph Alignment to Center.
-                para3.Alignment = "Right";
+                para3.Alignment = FileFormat.Words.IElements.ParagraphAlignment.Right; //"Right";
 
                 // Add paragraph with justify alignment
-                FileFormat.Words.IElements.Paragraph para4 = new FileFormat.Words.IElements.Paragraph();
+                var para4 = new FileFormat.Words.IElements.Paragraph();
                 para4.AddRun(new FileFormat.Words.IElements.Run
                 {
                     Text = "Fourth paragraph with justify alignment"
                 });
                 // Setting the Paragraph Alignment to Center.
-                para4.Alignment = "Justify";
+                para4.Alignment = FileFormat.Words.IElements.ParagraphAlignment.Justify; //"Justify";
 
                 // Append paragraphs to the document body
                 body.AppendChild(para1);
@@ -136,12 +136,13 @@ namespace FileFormat.Words.Examples
         /// </summary>
         /// <param name="documentDirectory">
         /// The directory where the Word Document to load is present
-        /// (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+        /// (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
         /// </param>
         /// <param name="filename">
-        /// The name of the Word Document file to load (default is "WordParagraphs.docx").
+        /// The name of the Word Document file to load (default is "WordParagraphsAligned.docx").
         /// </param>
-        public void ReadAlignment(string documentDirectory = docsDirectory, string filename = "WordParagraphsAligned.docx")
+        public void ReadAlignment(string documentDirectory = docsDirectory,
+            string filename = "WordParagraphsAligned.docx")
         {
             try
             {
@@ -151,8 +152,10 @@ namespace FileFormat.Words.Examples
                 // Initialize the body with the document
                 var body = new FileFormat.Words.Body(doc);
 
-                System.Collections.Generic.List<FileFormat.Words.IElements.Paragraph>
-                    paragraphs = body.Paragraphs;
+                //System.Collections.Generic.List<FileFormat.Words.IElements.Paragraph>
+                  //  paragraphs = body.Paragraphs;
+
+                var paragraphs = body.Paragraphs;
 
                 foreach (FileFormat.Words.IElements.Paragraph paragraph in paragraphs)
                 {
@@ -176,16 +179,17 @@ namespace FileFormat.Words.Examples
         /// </summary>
         /// <param name="documentDirectory">
         /// The directory where the Word Document to load is present and
-        /// the modified document will be saved (default is the 'Documents/Paragraph' directory auto-created at the root of your project).
+        /// the modified document will be saved (default is the 'Documents/Paragraph/Alignment' directory auto-created at the root of your project).
         /// </param>
         /// <param name="filename">
-        /// The name of the Word Document file to modify (default is "WordParagraphs.docx").
+        /// The name of the Word Document file to modify (default is "WordParagraphsAligned.docx").
         /// </param>
         /// <param name="filenameModified">
-        /// The name of the modified Word Document (default is "ModifiedWordParagraphs.docx").
+        /// The name of the modified Word Document (default is "ModifiedWordParagraphsAligned.docx").
         /// </param>
         public void ModifyAlignment(string documentDirectory = docsDirectory,
-            string filename = "WordParagraphsAligned.docx", string filenameModified = "ModifiedWordParagraphsAligned.docx")
+            string filename = "WordParagraphsAligned.docx",
+            string filenameModified = "ModifiedWordParagraphsAligned.docx")
         {
             try
             {
@@ -195,11 +199,12 @@ namespace FileFormat.Words.Examples
                 // Initialize the body with the document
                 var body = new FileFormat.Words.Body(doc);
 
-                foreach (FileFormat.Words.IElements.Paragraph paragraph in body.Paragraphs)
+                //foreach (FileFormat.Words.IElements.Paragraph paragraph in body.Paragraphs)
+                foreach (var paragraph in body.Paragraphs)
                 {
                     paragraph.AddRun(new FileFormat.Words.IElements.Run
                     { Text = " (alignment modified to justify)", Italic=true });
-                    paragraph.Alignment = "Justify";
+                    paragraph.Alignment = FileFormat.Words.IElements.ParagraphAlignment.Justify; //"Justify";
                     doc.Update(paragraph);
                 }
 
