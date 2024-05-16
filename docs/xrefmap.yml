@@ -76,6 +76,75 @@ references:
   commentId: Overload:FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
   fullName: FileFormat.Words.Examples.ImageExamples.ReadImagesInWordDocument
   nameWithType: ImageExamples.ReadImagesInWordDocument
+- uid: FileFormat.Words.Examples.ListExamples
+  name: ListExamples
+  href: api/FileFormat.Words.Examples.ListExamples.html
+  commentId: T:FileFormat.Words.Examples.ListExamples
+  fullName: FileFormat.Words.Examples.ListExamples
+  nameWithType: ListExamples
+- uid: FileFormat.Words.Examples.ListExamples.#ctor
+  name: ListExamples()
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples__ctor
+  commentId: M:FileFormat.Words.Examples.ListExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Words.Examples.ListExamples.ListExamples()
+  fullName.vb: FileFormat.Words.Examples.ListExamples.New()
+  nameWithType: ListExamples.ListExamples()
+  nameWithType.vb: ListExamples.New()
+- uid: FileFormat.Words.Examples.ListExamples.#ctor*
+  name: ListExamples
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples__ctor_
+  commentId: Overload:FileFormat.Words.Examples.ListExamples.#ctor
+  name.vb: New
+  fullName: FileFormat.Words.Examples.ListExamples.ListExamples
+  fullName.vb: FileFormat.Words.Examples.ListExamples.New
+  nameWithType: ListExamples.ListExamples
+  nameWithType.vb: ListExamples.New
+- uid: FileFormat.Words.Examples.ListExamples.CreateMultilevelLists(System.String,System.String)
+  name: CreateMultilevelLists(string, string)
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_CreateMultilevelLists_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ListExamples.CreateMultilevelLists(System.String,System.String)
+  name.vb: CreateMultilevelLists(String, String)
+  fullName: FileFormat.Words.Examples.ListExamples.CreateMultilevelLists(string, string)
+  fullName.vb: FileFormat.Words.Examples.ListExamples.CreateMultilevelLists(String, String)
+  nameWithType: ListExamples.CreateMultilevelLists(string, string)
+  nameWithType.vb: ListExamples.CreateMultilevelLists(String, String)
+- uid: FileFormat.Words.Examples.ListExamples.CreateMultilevelLists*
+  name: CreateMultilevelLists
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_CreateMultilevelLists_
+  commentId: Overload:FileFormat.Words.Examples.ListExamples.CreateMultilevelLists
+  fullName: FileFormat.Words.Examples.ListExamples.CreateMultilevelLists
+  nameWithType: ListExamples.CreateMultilevelLists
+- uid: FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists(System.String,System.String,System.String)
+  name: ModifyMultilevelLists(string, string, string)
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_ModifyMultilevelLists_System_String_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists(System.String,System.String,System.String)
+  name.vb: ModifyMultilevelLists(String, String, String)
+  fullName: FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists(string, string, string)
+  fullName.vb: FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists(String, String, String)
+  nameWithType: ListExamples.ModifyMultilevelLists(string, string, string)
+  nameWithType.vb: ListExamples.ModifyMultilevelLists(String, String, String)
+- uid: FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists*
+  name: ModifyMultilevelLists
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_ModifyMultilevelLists_
+  commentId: Overload:FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists
+  fullName: FileFormat.Words.Examples.ListExamples.ModifyMultilevelLists
+  nameWithType: ListExamples.ModifyMultilevelLists
+- uid: FileFormat.Words.Examples.ListExamples.ReadMultilevelLists(System.String,System.String)
+  name: ReadMultilevelLists(string, string)
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_ReadMultilevelLists_System_String_System_String_
+  commentId: M:FileFormat.Words.Examples.ListExamples.ReadMultilevelLists(System.String,System.String)
+  name.vb: ReadMultilevelLists(String, String)
+  fullName: FileFormat.Words.Examples.ListExamples.ReadMultilevelLists(string, string)
+  fullName.vb: FileFormat.Words.Examples.ListExamples.ReadMultilevelLists(String, String)
+  nameWithType: ListExamples.ReadMultilevelLists(string, string)
+  nameWithType.vb: ListExamples.ReadMultilevelLists(String, String)
+- uid: FileFormat.Words.Examples.ListExamples.ReadMultilevelLists*
+  name: ReadMultilevelLists
+  href: api/FileFormat.Words.Examples.ListExamples.html#FileFormat_Words_Examples_ListExamples_ReadMultilevelLists_
+  commentId: Overload:FileFormat.Words.Examples.ListExamples.ReadMultilevelLists
+  fullName: FileFormat.Words.Examples.ListExamples.ReadMultilevelLists
+  nameWithType: ListExamples.ReadMultilevelLists
 - uid: FileFormat.Words.Examples.ParagraphAlignmentExamples
   name: ParagraphAlignmentExamples
   href: api/FileFormat.Words.Examples.ParagraphAlignmentExamples.html

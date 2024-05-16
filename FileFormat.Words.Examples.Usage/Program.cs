@@ -7,9 +7,10 @@ namespace FileFormat.Words.Examples.Usage
     {
         static void Main(string[] args)
         {
+            
             // Prepares directory Documents/Paragraph at the root of your project.
             // Check reference for more options and details.
-            ParagraphExamples paragraphExamples = new ParagraphExamples();
+            var paragraphExamples = new ParagraphExamples();
             // Creates a word document with paragraphs and saves word document to the specified 
             // directory. Check reference for more options and details.
             paragraphExamples.CreateWordParagraphs();
@@ -22,7 +23,7 @@ namespace FileFormat.Words.Examples.Usage
 
             // Prepares directory Documents/Image at the root of your project.
             // Check reference for more options and details.
-            ImageExamples imageExamples = new ImageExamples();
+            var imageExamples = new ImageExamples();
             // Reads images from the specified directory, creates and saves word document to the specified 
             // directory. Check reference for more options and details.
             imageExamples.CreateWordDocumentWithImages();
@@ -35,7 +36,7 @@ namespace FileFormat.Words.Examples.Usage
 
             // Prepares directory Documents/Table at the root of your project.
             // Check reference for more options and details.
-            TableExamples tableExamples = new TableExamples();
+            var tableExamples = new TableExamples();
             // Creates a word document with tables and saves word document to the specified 
             // directory. Check reference for more options and details.
             tableExamples.CreateWordDocumentWithTables();
@@ -48,7 +49,7 @@ namespace FileFormat.Words.Examples.Usage
 
             // Prepares directory Documents/Paragraph/Alignment at the root of your project.
             // Check reference for more options and details.
-            ParagraphAlignmentExamples paragraphAlignment = new ParagraphAlignmentExamples();
+            var paragraphAlignment = new ParagraphAlignmentExamples();
             // Creates a word document with paragraphs having different alignments and saves word document
             // to the specified directory. Check reference for more options and details.
             paragraphAlignment.CreateAlignment();
@@ -61,7 +62,7 @@ namespace FileFormat.Words.Examples.Usage
 
             // Prepares directory Documents/Paragraph/Indent at the root of your project.
             // Check reference for more options and details.
-            ParagraphIndentExamples paragraphIndentExamples = new ParagraphIndentExamples();
+            var paragraphIndentExamples = new ParagraphIndentExamples();
             // Creates a word document with paragraphs having various indentations and saves word document
             // to the specified directory. Check reference for more options and details.
             paragraphIndentExamples.CreateIndent();
@@ -97,6 +98,19 @@ namespace FileFormat.Words.Examples.Usage
             // Modifies Roman and Alphabetic paragraphs in the Word Document and saves the modified word document.
             // Check reference for more options and details.
             paragraphRomanAlphabeticExamples.ModifyRomanAlphabeticParagraphs();
+           
+            // Prepares directory Documents/Paragraph/List at the root of your project.
+            // Check reference for more options and details.
+            var listExamples = new ListExamples();
+            // Creates a word document with two mulitlevel lists each having 3 levels and saves word
+            // document to the specified directory. Check reference for more options and details.
+            listExamples.CreateMultilevelLists();
+            // Reads Paragraphs from the specified Word Document and displays plain text with prefix info at each level.
+            // Check reference for more options and details.
+            listExamples.ReadMultilevelLists();
+            // Modifies list paragraphs in the Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            listExamples.ModifyMultilevelLists();           
         }
     }
 }

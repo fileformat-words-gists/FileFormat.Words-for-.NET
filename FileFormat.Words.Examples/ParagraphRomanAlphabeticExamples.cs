@@ -97,52 +97,50 @@ namespace FileFormat.Words.Examples
                 body.AppendChild(para);
 
                 // Reset paragraph
-                para = new FileFormat.Words.IElements.Paragraph();
+                para = new FileFormat.Words.IElements.Paragraph { Style = "ListParagraph" };
                 // Add a run to paragraph
                 para.AddRun(new FileFormat.Words.IElements.Run
                 { Text = "First roman  at first level" });
-                // Set roman and indentation for the paragraph
+                // Set roman numbering for the paragraph
+                para.NumberingId = 1;
                 para.IsRoman = true;
-                para.NumberingLevel = 0;
-                para.Indentation.FirstLine = 0.25;
+                para.NumberingLevel = 1;
                 // Append paragraph to the document body
                 body.AppendChild(para);
 
                 // Reset paragraph
-                para = new FileFormat.Words.IElements.Paragraph();
+                para = new FileFormat.Words.IElements.Paragraph { Style = "ListParagraph"};
                 // Add a run to paragraph
                 para.AddRun(new FileFormat.Words.IElements.Run
                 { Text = "First alphabetic at second level" });
-                // Set alphabetic and indentation for the paragraph
+                // Set alphabetic numbering for the paragraph
+                para.NumberingId = 1;
                 para.IsAlphabeticNumber = true;
-                para.NumberingLevel = 1;
-                para.Indentation.FirstLine = 0.5;
+                para.NumberingLevel = 2;
                 // Append paragraph to the document body
                 body.AppendChild(para);
 
                 // Reset paragraph
-                para = new FileFormat.Words.IElements.Paragraph();
+                para = new FileFormat.Words.IElements.Paragraph { Style = "ListParagraph"};
                 // Add a run to paragraph
                 para.AddRun(new FileFormat.Words.IElements.Run
                 { Text = "Second alphabetic at second level" });
-                // Set alphabetic and indentation for the paragraph
+                // Set alphabetic numbering for the paragraph
+                para.NumberingId = 1;
                 para.IsAlphabeticNumber = true;
-                para.NumberingLevel = 1;
-
-                para.Indentation.FirstLine = 0.5;
+                para.NumberingLevel = 2;
                 // Append paragraph to the document body
                 body.AppendChild(para);
 
                 // Reset paragraph
-                para = new FileFormat.Words.IElements.Paragraph();
+                para = new FileFormat.Words.IElements.Paragraph { Style = "ListParagraph" };
                 // Add a run to paragraph
                 para.AddRun(new FileFormat.Words.IElements.Run
                 { Text = "Second roman at first level" });
                 // Set roman and indentation for the paragraph
+                para.NumberingId = 1;
                 para.IsRoman = true;
-                para.NumberingLevel = 0;
-
-                para.Indentation.FirstLine = 0.25;
+                para.NumberingLevel = 1;
                 // Append paragraph to the document body
                 body.AppendChild(para);
 
@@ -197,8 +195,10 @@ namespace FileFormat.Words.Examples
                 foreach (FileFormat.Words.IElements.Paragraph paragraph in paragraphs)
                 {
                     System.Console.WriteLine($"Paragraph Text : {paragraph.Text}");
+                    System.Console.WriteLine($"Paragraph NumberingId : {paragraph.NumberingId}");
+                    System.Console.WriteLine($"Paragraph Numbered? : {paragraph.IsNumbered}");
                     System.Console.WriteLine($"Paragraph Roman? : {paragraph.IsRoman}");
-                    System.Console.WriteLine($"Paragraph Alphabetic? : {paragraph.IsAlphabeticNumber}");
+                    System.Console.WriteLine($"Paragraph AlphabeticNumber? : {paragraph.IsAlphabeticNumber}");
                     System.Console.WriteLine($"Paragraph Numbering Level : {paragraph.NumberingLevel}");
                 }
             }
@@ -240,11 +240,11 @@ namespace FileFormat.Words.Examples
                 //foreach (FileFormat.Words.IElements.Paragraph paragraph in body.Paragraphs)
                 foreach (var paragraph in body.Paragraphs)
                 {
-                    if (paragraph.IsAlphabeticNumber)
+                    if (paragraph.Style == "ListParagraph")
                     {
+                        paragraph.Style = "Normal";
                         paragraph.AddRun(new FileFormat.Words.IElements.Run
                         { Text = " (alphabet removed)", Italic = true });
-                        paragraph.IsAlphabeticNumber = false;
                         doc.Update(paragraph);
                     }
                 }

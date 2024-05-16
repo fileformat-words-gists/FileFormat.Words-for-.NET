@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/Users/muhammadsabir/Projects/docfx_project/24.3.0/Examples/docfx_project",
+  "source_base_path": "/Users/muhammadsabir/Projects/docfx_project/24.5.1/Examples/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -16,6 +16,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FileFormat.Words.Examples.ImageExamples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FileFormat.Words.Examples.ListExamples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FileFormat.Words.Examples.ListExamples.html"
         }
       },
       "version": ""
