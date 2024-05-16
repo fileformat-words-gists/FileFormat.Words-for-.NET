@@ -25,6 +25,9 @@
 - [Create Roman Alphabetic Word Paragraphs in C#](#create-roman-alphabetic-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/fbef77098e338fc29d2e5ba5108f0169)
 - [Read Roman Alphabetic Word Paragraphs in C#](#read-roman-alphabetic-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/291df28a345ff6556c6c1f19f2b08a09)
 - [Modify Roman Alphabetic Word Paragraphs in C#](#modify-roman-alphabetic-word-paragraphs-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/45a28fd403bfc13157e8f937641d80a1)
+- [Create Multiple Multilevel List Paragraphs of Word Document in C#](#create-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/28b1e2ba2d553059a2b85031208a2a2a)
+- [Read Multiple Multilevel List Paragraphs of Word Document in C#](#read-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/e0a00f9068eef510f44acdf064910f95)
+- [Modify Multiple Multilevel List Paragraphs of Word Document in C#](#modify-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -166,6 +169,24 @@
 * If alphabetic, modifies paragraphs by appending ' (alphabetic removed)' with italic format and paragraph alphabetic is removed.
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/45a28fd403bfc13157e8f937641d80a1)
+
+## [Create Multiple Multilevel List Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/28b1e2ba2d553059a2b85031208a2a2a)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates two multilevel lists with different prefixes at different levels.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/28b1e2ba2d553059a2b85031208a2a2a)
+
+## [Read Multiple Multilevel List Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/e0a00f9068eef510f44acdf064910f95)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses paragraphs and displays its text, numbering id, numbering type and level.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/e0a00f9068eef510f44acdf064910f95)
+
+## [Modify Multiple Multilevel List Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through all paragraphs within the document.
+* If list paragraphs, modifies paragraphs by appending ' (numbering removed)' with italic format and paragraph numbering is removed.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
 
 ## Resources
 * [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
