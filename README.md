@@ -184,7 +184,7 @@
 ## [Modify Multiple Multilevel List Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
 * Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
 * Traverses through all paragraphs within the document.
-* If list paragraphs, modifies paragraphs by appending ' (numbering removed)' with italic format and paragraph numbering is removed.
+* If list paragraphs, modifies paragraphs by appending ' (numbering type changed to numeric)' with italic format and paragraph numbering type is changed to numeric.
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
 
