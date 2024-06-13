@@ -1,3 +1,13 @@
+# ⚠️ Important Notice
+
+**This repository is no longer maintained.**
+
+We have moved our code and updates to a new repository. Please visit the new repository for the latest version:
+
+👉 **New Repository: [Openize.Words for .NET](https://github.com/openize-words-gists/Openize.Words-for-.NET)**
+
+Thank you for your interest and support!
+
 # C# Word Document API Examples
 
 **FileFormat.Words.Examples** - C# code examples using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
