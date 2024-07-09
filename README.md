@@ -1,13 +1,3 @@
-# ⚠️ Important Notice
-
-**This repository is no longer maintained.**
-
-We have moved our code and updates to a new repository. Please visit the new repository for the latest version:
-
-👉 **New Repository: [Openize.Words for .NET](https://github.com/openize-words-gists/Openize.Words-for-.NET)**
-
-Thank you for your interest and support!
-
 # C# Word Document API Examples
 
 **FileFormat.Words.Examples** - C# code examples using [FileFormat.Words for .NET](https://github.com/fileformat-words/FileFormat.Words-for-.NET) - A versatile API for creating, loading, and modifying MS Word documents.
@@ -38,6 +28,9 @@ Thank you for your interest and support!
 - [Create Multiple Multilevel List Paragraphs of Word Document in C#](#create-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/28b1e2ba2d553059a2b85031208a2a2a)
 - [Read Multiple Multilevel List Paragraphs of Word Document in C#](#read-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/e0a00f9068eef510f44acdf064910f95)
 - [Modify Multiple Multilevel List Paragraphs of Word Document in C#](#modify-multiple-multilevel-list-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
+- [Create Multiple Frame Paragraphs of Word Document in C#](#create-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/83df7ce4f63b5ad4b46ff80fd4b36385)
+- [Read Multiple Frame Paragraphs of Word Document in C#](#read-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/337a12ff02605c5e4aff85354cb72195)
+- [Modify Multiple Frame Paragraphs of Word Document in C#](#modify-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/8354a38816cd4edf123b4ff419049eca)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -198,22 +191,50 @@ Thank you for your interest and support!
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/6abca4875309fac7605518ac368de4c2)
 
+## [Create Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/83df7ce4f63b5ad4b46ff80fd4b36385)
+* Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Generates two multilevel lists with different prefixes at different levels.
+* Saves the newly created Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/83df7ce4f63b5ad4b46ff80fd4b36385)
+
+## [Read Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/337a12ff02605c5e4aff85354cb72195)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses paragraphs and displays its text, numbering id, numbering type and level.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/337a12ff02605c5e4aff85354cb72195)
+
+## [Modify Multiple Frame Paragraphs of Word Document in C#](https://gist.github.com/fileformat-words-gists/8354a38816cd4edf123b4ff419049eca)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through all paragraphs within the document.
+* If list paragraphs, modifies paragraphs by appending ' (numbering type changed to numeric)' with italic format and paragraph numbering type is changed to numeric.
+* Saves the modified Word Document.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/8354a38816cd4edf123b4ff419049eca)
+
 ## Resources
-* [Docs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/index.html)
-* [API Reference](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html)
-* [Articles](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/articles/index.html)
+* [Docs](https://docs.fileformat.dev)
 
 ## System Requirements
-* [Pre-Requisite](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/index.html#pre-requisite)
+* Pre-Requisite: .NET Core 3.1 and above.
 * Make sure to have below nuget packages installed:
   * [FileFormat.Words for .NET](https://www.nuget.org/packages/FileFormat.Words)
   * [SkiaSharp](https://www.nuget.org/packages/SkiaSharp)
 
 ## Quick Start
-* [Create, Read and Modify Word Paragraphs](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ParagraphExamples.html#FileFormat_Words_Examples_ParagraphExamples_examples).
-* [Create, Read and Modify Word Images](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.ImageExamples.html#FileFormat_Words_Examples_ImageExamples_examples).
-* [Create, Read and Modify Word Tables](https://fileformat-words-gists.github.io/FileFormat.Words-for-.NET/api/FileFormat.Words.Examples.TableExamples.html#FileFormat_Words_Examples_TableExamples_examples).
+```csharp
+// Prepares directory at the root of your project.
+// Default is 'Documents/Paragraph' unless specified otherwise as param.
+var paragraphExamples = new ParagraphExamples();
+// Creates a word document with paragraphs and saves word document to the specified 
+// directory. Default is 'Documents/Paragraph/WordParagraphs.docx' unless specified otherwise as param.
+paragraphExamples.CreateWordParagraphs();
+// Reads Paragraphs from the specified Word Document and displays plain text and formatting.
+// Default is 'Documents/Paragraph/WordParagraphs.docx' unless specified otherwise as param.
+paragraphExamples.ReadWordParagraphs();
+// Modifies Paragraphs in the specified Word Document and saves the modified word document.
+// Default document to modify is 'Documents/Paragraph/WordParagraphs.docx' unless specified otherise as param.
+// Default modified document is saved as 'Documents/Paragraph/WordParagraphs.docx' unless specified otherise as param.
+paragraphExamples.ModifyWordParagraphs();
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/fileformat-words-gists/FileFormat.Words-for-.NET/blob/main/LICENSE) file for details.
