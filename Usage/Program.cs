@@ -7,7 +7,6 @@ namespace FileFormat.Words.Examples.Usage
     {
         static void Main(string[] args)
         {
-            
             // Prepares directory Documents/Paragraph at the root of your project.
             // Check reference for more options and details.
             var paragraphExamples = new ParagraphExamples();
@@ -124,6 +123,19 @@ namespace FileFormat.Words.Examples.Usage
             // Modifies border and text of framed paragraphs in the Word Document and saves the modified word document.
             // Check reference for more options and details.
             paraFrameExamples.ModifyParagraphsFrames();
+            
+            // Prepares directory Documents/Shape at the root of your project.
+            // Check reference for more options and details.
+            var shapeExamples = new FileFormat.Words.Examples.ShapeExamples();
+            // Creates a word document with shapes and saves word document to the specified 
+            // directory. Check reference for more options and details.
+            shapeExamples.CreateShapes();
+            // Reads shapes from the specified Word Document and displays shape attributes.
+            // Check reference for more options and details.
+            shapeExamples.ReadShapes();
+            // Modifies shapes in the specified Word Document and saves the modified word document.
+            // Check reference for more options and details.
+            shapeExamples.ModifyShapes();
         }
     }
 }
