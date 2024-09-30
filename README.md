@@ -32,6 +32,7 @@
 - [Read Multiple Frame Paragraphs of Word Document in C#](#read-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/337a12ff02605c5e4aff85354cb72195)
 - [Modify Multiple Frame Paragraphs of Word Document in C#](#modify-multiple-frame-paragraphs-of-word-document-in-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/8354a38816cd4edf123b4ff419049eca)
 - [Create Shapes in Word Document C#](#create-shapes-in-word-document-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/4e1e959600f4e309b07f0780170b6fe1)
+- [Read Shapes in Word Document C#](#read-shapes-in-word-document-c) - Explore [gist](https://gist.github.com/fileformat-words-gists/1b2f4fec37167dd4442e31788020876e)
 - [Resources](#resources)
 - [System Requirements](#system-requirements)
 - [Quick Start](#quick-start)
@@ -210,11 +211,17 @@
 * Saves the modified Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/8354a38816cd4edf123b4ff419049eca)
 
-## [Create Shapes in Word Document C#](https://gist.github.com/fileformat-words-gists/83df7ce4f63b5ad4b46ff80fd4b36385)
+## [Create Shapes in Word Document C#](https://gist.github.com/fileformat-words-gists/4e1e959600f4e309b07f0780170b6fe1)
 * Creates a new Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
 * Generates various shapes of different types and add them to the word document.
 * Saves the newly created Word Document.
 * [Click here to explore gist](https://gist.github.com/fileformat-words-gists/4e1e959600f4e309b07f0780170b6fe1)
+
+## [Read Shapes in Word Document C#](https://gist.github.com/fileformat-words-gists/1b2f4fec37167dd4442e31788020876e)
+* Loads a Word Document with structured content using [FileFormat.Words](https://www.nuget.org/packages/FileFormat.Words)
+* Traverses through shapes in the word document.
+* Reads and displays properties of the shape.
+* [Click here to explore gist](https://gist.github.com/fileformat-words-gists/1b2f4fec37167dd4442e31788020876e)
 
 ## Resources
 * [Docs](https://docs.fileformat.dev)
