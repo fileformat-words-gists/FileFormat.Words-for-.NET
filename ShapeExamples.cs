@@ -157,7 +157,8 @@
         /// <summary>
         /// Loads a Word Document with structured content using 
         /// <a href="https://www.nuget.org/packages/FileFormat.Words">FileFormat.Words</a>.
-        /// Modifies tables by setting column widths to 2000
+        /// Traverses through shapes of the Word document.
+        /// Modifies shapes by setting their type to Diamond.
         /// Saves the modified Word Document.
         /// </summary>
         /// <param name="documentDirectory">
